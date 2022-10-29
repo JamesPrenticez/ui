@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 
-export default function Home(props) {
+export default function Admin(props) {
 
   useEffect(() => {document.title = props.title || "UI"}, [props.title])
 
