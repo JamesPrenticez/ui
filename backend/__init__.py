@@ -27,13 +27,8 @@ def create_app(config_env):
 	# Routes
 	##############################################################
 	with app.app_context():
-		from .home.routes import blueprint as home_blueprint
-		from .errors.routes import blueprint as errors_blueprint
-		from .customers.routes import blueprint as customers_blueprint
-
-		app.register_blueprint(errors_blueprint)
-		app.register_blueprint(home_blueprint)
-		app.register_blueprint(customers_blueprint)
+		from .routes import blueprint as routes_blueprint
+		app.register_blueprint(routes_blueprint)
 
 		return app
 

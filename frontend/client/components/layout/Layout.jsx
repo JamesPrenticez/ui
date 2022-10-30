@@ -7,11 +7,12 @@ export default function Layout({children}) {
   return (
     <>
     <Navbar />
-
-    <main className="min-h-screen bg-theme-primary text-theme-secondary">
-      {/* <Sidebar /> */}
-      {children}
-    </main>
+    <body className='flex justify-center bg-theme-primary text-theme-secondary font-medium min-h-screen'>
+      <main className='w-full lg:max-w-7xl '>
+        {/* <Sidebar /> */}
+        {children}
+      </main>
+    </body>
 
     <Footer />
     </>

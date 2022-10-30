@@ -32,9 +32,8 @@ Unused Colors
 }
 
 
-@layer base {
+/* @layer base {
   body {
     @apply
-    overflow-y-scroll
   }
-}
+} */
