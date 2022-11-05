@@ -28,6 +28,30 @@ module.exports = {
           secondary: "var(--secondary)",
           tertiary: "var(--tertiary)"
         }
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+        stroke: 'stroke 1s cubic-bezier(0.65, 0, 0.45, 1) forwards infinite',
+        scale: 'scale 1s ease-in-out infinite',
+        flash: 'flash 1s ease-in-out infinite',
+        flash1: 'flash 1s ease-in-out 1'
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' }
+        },
+        stroke: {
+          '100%': { strokeDashoffset: 0 }
+        },
+        scale: {
+          '0%, 100%': { transform: 'none'	},
+          '50%': { transform: 'scale3d(1.1, 1.1, 1)' }
+        },
+        flash: {
+          'from': { backgroundColor: 'rgb(34 197 94)' },
+          'to': { backgroundColor: 'rgb(239 68 68)' },
+        }
       }
     }
   },

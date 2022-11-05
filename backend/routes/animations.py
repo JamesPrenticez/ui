@@ -1,6 +1,6 @@
 from . import blueprint
 from flask import render_template
 
-@blueprint.route('/admin', methods=['GET'])
-def admin():
+@blueprint.route('/animations', methods=['GET'])
+def animations():
 	return render_template("index.html")

@@ -4,16 +4,21 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="../public/assets/favicon.ico"/>
     <title>{{title}}</title>
     
     <!-- Flask Server Side Variables -->
     <script>window.title = "{{title}}"</script>
+
+    <!-- Core Webpack Bundles, the rest is dynamically loaded  -->
+		<script defer type="text/javascript" src="./public/vendor-corejs.js"></script>
+		<script defer type="text/javascript" src="./public/vendor-react.js"></script>
+		<script defer type="text/javascript" src="./public/main.js"></script>
   <head>
 
   <body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="app"></div>
-    <script type="text/javascript" src="{{ url_for('static', filename='/bundle.js') }}"></script>
   </body>
   
 </html>

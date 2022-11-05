@@ -5,6 +5,7 @@ import ThemeToggle from './ThemeToggle'
 const navItems = [
 	{name: 'home', url: '/', icon: ''},
 	{name: 'admin', url: '/admin', icon: ''},
+	{name: 'animations', url: '/animations', icon: ''},
 ]
 
 export default function Navbar(){

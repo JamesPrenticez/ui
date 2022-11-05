@@ -4,3 +4,4 @@ blueprint = Blueprint('routes', __name__)
 
 from .home import home
 from .admin import admin
+from .animations import animations

@@ -28,7 +28,9 @@ def create_app(config_env):
 	##############################################################
 	with app.app_context():
 		from .routes import blueprint as routes_blueprint
+		from .api import blueprint as api_blueprint
 		app.register_blueprint(routes_blueprint)
+		app.register_blueprint(api_blueprint)
 
 		return app
 
