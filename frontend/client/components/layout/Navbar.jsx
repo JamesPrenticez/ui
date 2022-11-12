@@ -4,7 +4,8 @@ import ThemeToggle from './ThemeToggle'
 
 const navItems = [
 	{name: 'home', url: '/', icon: ''},
-	{name: 'admin', url: '/admin', icon: ''},
+	{name: 'inputs', url: '/inputs', icon: ''},
+	{name: 'table', url: '/table', icon: ''},
 	{name: 'animations', url: '/animations', icon: ''},
 ]
 

@@ -9,7 +9,7 @@ const mockdata = [
   {id: 5, title: 'five'}
 ]
 
-export default function Admin(props) {
+export default function Table(props) {
   useEffect(() => {document.title = props.title || "UI"}, [props.title])
 
   const [data, setData] = useState(mockdata)

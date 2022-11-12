@@ -11,7 +11,8 @@ import Home from './routes/Home'
 
 // const Admin = lazy(() => import(/* webpackChunkName: "routes-admin" */ './routes/Admin'))
 // const Animations = lazy(() => import(/* webpackChunkName: "routes-animations" */ './routes/Animations'))
-const Admin = loadable(() => import(/* webpackChunkName: "routes-admin" */ './routes/Admin'))
+const Table = loadable(() => import(/* webpackChunkName: "routes-admin" */ './routes/Table'))
+const Inputs = loadable(() => import(/* webpackChunkName: "routes-admin" */ './routes/Inputs'))
 const Animations = loadable(() => import(/* webpackChunkName: "routes-animations" */ './routes/Animations'))
 
 export default function App() {
@@ -22,7 +23,8 @@ export default function App() {
         <Route path="/error/500" element={<InternalServer />} />
         <Route element={<Layout />}>
           <Route exact path="/" element={<Home title={"Home"}/>} />
-          <Route path="/admin" element={<Admin title={"Admin"}/>} />
+          <Route path="/table" element={<Table title={"Table"}/>} />
+          <Route path="/inputs" element={<Inputs title={"Inputs"}/>} />
           <Route path="/animations" element={<Animations title={"Animations"}/>} />
         </Route>
       </Routes>
