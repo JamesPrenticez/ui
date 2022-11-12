@@ -11,7 +11,7 @@ const navItems = [
 
 export default function Navbar(){
   return (
-    <header className='flex justify-center bg-theme-tertiary text-white font-medium'>
+    <header className='flex justify-center bg-theme-tertiary text-theme-secondary  font-medium'>
       <nav className='flex items-center justify-between w-full lg:max-w-7xl '>
         <div className='space-x-2'>
           {navItems.map((item, index) => (

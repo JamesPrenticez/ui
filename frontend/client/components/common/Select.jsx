@@ -1,19 +1,24 @@
 import React, {useState, useEffect, useRef} from 'react'
 import { useKeyPressed } from "../../hooks/useKeyPressed"
 
-export default function Select({options, value, setValue, placeholder}) {
+export default function Select({options, value, setSelectedValue, placeholder}) {
   const containerRef = useRef(null)
   
   const [isOpen, setIsOpen] = useState(false)
   const [filteredArray, setFilteredArray] = useState(options)
   const [activeIndex, setActiveIndex] = useState(0)
+  const [searchValue, setSearchValue] = useState("")
 
   const downArrowPressed = useKeyPressed("ArrowDown")
+  const enterPressed = useKeyPressed("Enter")
+
+  
 
   useEffect(() => {
     if(isOpen) return
     if(downArrowPressed && !isOpen) {setIsOpen(true),  containerRef.current.focus()}
-  }, [downArrowPressed])
+    enterPressed //prevent default so contentEditable doesnt create a new line in the input box
+  }, [downArrowPressed, enterPressed])
 
   const handleArrowKeys = (e) => {
     switch(e.key){
@@ -25,7 +30,8 @@ export default function Select({options, value, setValue, placeholder}) {
         break
       case "Enter":
         //alert(`Selected ${filteredArray[activeIndex]}`)
-        console.log(`Selected ${filteredArray[activeIndex].label}`)
+        setSelectedValue(filteredArray[activeIndex])
+        console.log(filteredArray[activeIndex])
         break
       case "Escape":
         setIsOpen(false)
@@ -38,52 +44,76 @@ export default function Select({options, value, setValue, placeholder}) {
     let filteredArr = options.filter(item => item.label.toLowerCase().includes(value.toLowerCase()))
     setFilteredArray(filteredArr.map(item => item))
   }
+  
+  const handleUpdate = (e) => {
+    setSearchValue(e.target.value)
+    updateFilteredArray(e.target.value)
+  }
 
   return (
     <>
     <div
       ref={containerRef}
-      className="hover:cursor-pointer relative my-1 rounded-md"
+      className="
+      relative
+      my-1
+      bg-theme-primary
+      text-theme-secondary
+      w-full
+      py-2       
+      px-12
+      outline-none
+      ring-[0.05rem]
+      ring-theme-tertiary
+      focus:ring-theme-quaternary
+      cursor-pointer
+      rounded-sm
+      "
       onClick={() => setIsOpen(true)}
       onBlur={() => setIsOpen(false)}
-      onKeyDown={(e) => handleArrowKeys(e)}
       tabIndex={0}
     >
-
-      <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
-        <svg  className="cursor-pointer h-6 w-6 text-gray-500 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+      {/* <div className="bg-red-500 w-[3rem] absolute inset-y-0 left-0 flex items-center justify-center pointer-events-none ">
+        <svg height={22} width={22} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>     
-      </div>
+      </div> */}
+
+      <p>{value.label}</p>
 
       <input  
         type="text"
-        name="selected"
-        value={value}
+        onKeyDown={(e) => handleArrowKeys(e)}
+        value={searchValue}
         placeholder={placeholder || "Select..."}
-        className="bg-white text-black block w-full pl-10 py-1 text-lg border-2 border-blue-900 outline-blue-500 rounded-md"
-        onChange={(e) => {setValue(e.target.value), updateFilteredArray(e.target.value)}}
+        className="bg-red-500"
+        onChange={(e) => handleUpdate(e)}
       />
-      
-      <div className="absolute right-2 inset-y-0 pl-3 flex items-center  pointer-events-none">
+
+      {/*
+      <div 
+        className="absolute bg-red-500 w-[3rem] right-0 inset-y-0 flex items-center justify-center pointer-events-none"
+        onClick={() => console.log("here")}
+      >
         <svg 
           xmlns="http://www.w3.org/2000/svg"
           className={`${!isOpen && "transfrom rotate-90 transition-transform ease-in-out duration-200"}`}
-          height={24}
-          width={24}
+          height={22}
+          width={22}
           fill="none"
           viewBox="0 0 24 24"
-          stroke="rgb(107 114 128)"
+          stroke="currentColor"
           strokeWidth={2}
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
         </svg>
-      </div>
+      </div> */}
+
     </div>
 
     {isOpen && 
       <div 
-        className="bg-white text-black cursor-pointer border-2 border-blue-500 rounded-sm"
+        className="bg-theme-primary text-theme-secondary cursor-pointer border-[0.05rem] border-theme-quaternary rounded-sm"
       >
         {[...options]
           .filter(item => filteredArray.includes(item))
@@ -91,14 +121,13 @@ export default function Select({options, value, setValue, placeholder}) {
             return(
               <div 
                 key={item.value}
-                className={`${activeIndex == index && "bg-blue-500 text-white"} `}
+                className={`${activeIndex == index && "bg-theme-tertiary"}`}
               >
                 <span className="pl-2">{item.label}</span>
               </div>
             )
           })
         }
-
       </div>
     }
   </>

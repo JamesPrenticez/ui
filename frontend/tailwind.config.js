@@ -26,7 +26,8 @@ module.exports = {
         theme: {
           primary: "var(--primary)",
           secondary: "var(--secondary)",
-          tertiary: "var(--tertiary)"
+          tertiary: "var(--tertiary)",
+          quaternary: "var(--quaternary)"
         }
       },
       animation: {

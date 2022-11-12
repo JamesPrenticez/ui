@@ -15,20 +15,18 @@ Unused Colors
 
 /*primary, secondary, tertiary, quaternary, quinary, senary, septenary, octonary, nonary, and denary*/
 :root {
-  --primary: #FFFFFF; 
-  --secondary: #313436;; 
-  --tertiary: #444444; 
-  --blue1: #38bdf8;
-  --blue2: #007fff;
-  --blue3: #001e3c;
-  --blue4: #0a1929;
-	--blue5: #002470;
+  --primary: #f9fafb; 
+  --secondary: #313436;
+  --tertiary: #e5e7eb; 
+	--quaternary: #007fff;
+
 }
 
 [data-theme="dark"] {
   --primary: #313436;
-  --secondary: #FFFFFF;
-  --tertiary: #38bdf8; 
+  --secondary: #f9fafb;
+  --tertiary: #007fff;
+  --quaternary: #38bdf8; 
 }
 
 

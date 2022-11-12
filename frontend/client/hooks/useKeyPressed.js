@@ -4,9 +4,12 @@ export const useKeyPressed = (targetKey) => {
   const [keyPressed, setKeyPressed] = useState(false)
 
   const handleKeyDown = (e) => {
-    e.preventDefault()
     if(e.repeat) return 
-    e.key === targetKey && setKeyPressed(true)
+
+    if(e.key === targetKey){
+      e.preventDefault()
+      setKeyPressed(true)
+    } 
   }
  
   const handleKeyUp = (e) => {

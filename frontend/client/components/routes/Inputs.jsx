@@ -12,7 +12,7 @@ const mockdata = [
 export default function Inputs(props) {
   document.title = "inputs"
 
-  const [selected, setSelected] = useState("")
+  const [selected, setSelectedValue] = useState({label:"", value: ""})
 
   return (
     <>
@@ -21,7 +21,7 @@ export default function Inputs(props) {
       <Select 
         options={mockdata}
         value={selected}
-        setValue={setSelected}
+        setSelectedValue={setSelectedValue}
         placeholder=""
       />
     </>
