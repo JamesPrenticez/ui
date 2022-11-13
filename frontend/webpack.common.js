@@ -1,5 +1,7 @@
 const path = require('path');
 const TerserPlugin = require("terser-webpack-plugin")
+const Visualizer = require('webpack-visualizer-plugin2');
+const { StatsWriterPlugin } = require("webpack-stats-plugin")
 
 module.exports = {
 	entry: ['./client/index.js'], 
@@ -61,5 +63,15 @@ module.exports = {
 			}),
 		],
   },
-	plugins: []
+	plugins: [
+    new StatsWriterPlugin({
+        filename: path.join('..', 'stats', 'log.json'),
+        fields: null,
+        stats: { chunkModules: true },
+    }),
+ 
+    new Visualizer({
+        filename: path.join('..', 'stats', 'statistics.html'),
+    }),
+	]
 }

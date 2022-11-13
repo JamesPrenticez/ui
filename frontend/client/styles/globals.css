@@ -30,8 +30,9 @@ Unused Colors
 }
 
 
-/* @layer base {
+@layer base {
   body {
     @apply
+    text-normal
   }
-} */
+}

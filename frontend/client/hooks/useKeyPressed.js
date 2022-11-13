@@ -5,7 +5,7 @@ export const useKeyPressed = (targetKey) => {
 
   const handleKeyDown = (e) => {
     if(e.repeat) return 
-
+    if(e.key ===  "ArrowUp") e.preventDefault()
     if(e.key === targetKey){
       e.preventDefault()
       setKeyPressed(true)
@@ -13,6 +13,7 @@ export const useKeyPressed = (targetKey) => {
   }
  
   const handleKeyUp = (e) => {
+    e.preventDefault()
     e.key === targetKey && setKeyPressed(false)
   }
 
@@ -27,3 +28,5 @@ export const useKeyPressed = (targetKey) => {
   })
   return keyPressed
 }
+
+// HTML is retared as fuck and you need to prevent the up arrow key resetting the cursor position ..... literally no other application has this fucking stupid behaviour

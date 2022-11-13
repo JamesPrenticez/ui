@@ -29,14 +29,17 @@ export default function Select({options, value, setSelectedValue, placeholder}) 
           setActiveIndex(prevState => prevState < filteredArray.length - 1 ? prevState + 1 : prevState)
         break
       case "Enter":
-        //alert(`Selected ${filteredArray[activeIndex]}`)
+        //check is value ty
         setSelectedValue(filteredArray[activeIndex])
-        setSearchValue("")
         setIsOpen(false)
+        setSearchValue("")
+        setFilteredArray(options)
         inputRef.current.blur()
         break
       case "Escape":
         setIsOpen(false)
+        setSearchValue("")
+        setFilteredArray(options)
         inputRef.current.blur()
         break
     }
@@ -58,87 +61,86 @@ export default function Select({options, value, setSelectedValue, placeholder}) 
     <div
       className="
       relative
+      flex
       my-1
       bg-theme-primary
       text-theme-secondary
       w-full
       py-2
-      px-[3rem]       
       ring-[0.05rem]
       ring-theme-tertiary
       focus:ring-theme-quaternary
       cursor-pointer
       rounded-sm
       "
-      onClick={() => setIsOpen(true)}
+      //onClick={() => setIsOpen(true)}
       onBlur={() => setIsOpen(false)}
       // tabIndex={0}
     >
-      {/* <div className="bg-red-500 w-[3rem] flex items-center justify-center pointer-events-none ">
-        <svg height={22} width={22} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <div className="w-[2rem] flex items-center justify-center pointer-events-none ">
+        <svg height={20} width={20} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>     
-      </div> */}
+      </div>
       {/* {console.log("searchvalue", searchValue)} */}
-
-      <div className='h-[1rem] py-2'>
 
         <input 
           ref={inputRef} 
           type="text"
           onKeyDown={(e) => handleArrowKeys(e)}
           value={searchValue}
-          className='bg-transparent py-2 absolute left-[3rem] right-[3rem] inset-y-0 outline-none z-50'
+          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none z-50 bg-transparent'
           onChange={(e) => handleUpdate(e)}
         />
+        <input 
+          type="text"
+          placeholder={searchValue.length > 0 ? "" : value.label.length > 0 ? value.label : placeholder || "Select..."}
+          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none bg-transparent placeholder:text-white pointer-events-none'
+        />
 
-        <p 
-          className='absolute flex items-center left-[3rem] right-[3rem] inset-y-0 pointer-events-none'
-          >
-            {searchValue.length > 0 ? "" : value.label.length > 0 ? value.label : placeholder || "Select..."}
-        </p>
-      </div>
-
-      {/*
+      
       <div 
-        className="absolute bg-red-500 w-[3rem] right-0 inset-y-0 flex items-center justify-center pointer-events-none"
+        className="absolute bg-red-500 w-[2rem] right-0 inset-y-0 flex items-center justify-center pointer-events-none"
         onClick={() => console.log("here")}
       >
         <svg 
           xmlns="http://www.w3.org/2000/svg"
-          className={`${!isOpen && "transfrom rotate-90 transition-transform ease-in-out duration-200"}`}
-          height={22}
-          width={22}
+          className={`${isOpen ? '-rotate-90' : 'rotate-0'} 'transition transform ease-in-out duration-200`}
+          height={20}
+          width={20}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
           strokeWidth={2}
         >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+         <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
         </svg>
-      </div> */}
-
-    </div>
-
-    {isOpen && 
-      <div 
-        className="bg-theme-primary text-theme-secondary cursor-pointer border-[0.05rem] border-theme-quaternary rounded-sm"
-      >
-        {[...options]
-          .filter(item => filteredArray.includes(item))
-          .map((item, index) => {
-            return(
-              <div 
-                key={item.value}
-                className={`${activeIndex == index && "bg-theme-tertiary"}`}
-              >
-                <span className="pl-2">{item.label}</span>
-              </div>
-            )
-          })
-        }
       </div>
-    }
+
+      {isOpen && 
+        <div 
+          className="absolute top-12 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer border-[0.05rem] border-theme-quaternary rounded-sm"
+        >
+          {options.length > 0 ?
+            [...options]
+              .filter(item => filteredArray.includes(item))
+              .map((item, index) => {
+                return(
+                  <div 
+                    key={item.value}
+                    className={`${activeIndex == index && "bg-theme-tertiary"} py-2`}
+                  >
+                    <span className="pl-2">{item.label}</span>
+                  </div>
+                )
+              })
+          :
+          <div></div>
+        }
+
+        </div>
+      }
+    </div>
   </>
   )
 }
