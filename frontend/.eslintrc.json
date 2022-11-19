@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "react-app",
+    "react=app/jest",
+    "prettier" //important this is at the end so it can override
+  ],
+  "rules": {
+    "semi": [2, "never"]
+  }
+}

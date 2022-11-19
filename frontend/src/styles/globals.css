@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+Unused Colors
+#1e4976
+--gray0: #D1D6DB 
+--gray1: #f3f4f6;
+--gray2: #132f4c;
+--gray3: #f9fafb;
+--text4: #444444;
+--text5: #313436;
+*/
+
+/*primary, secondary, tertiary, quaternary, quinary, senary, septenary, octonary, nonary, and denary*/
+:root {
+  --primary: #f9fafb;
+  --secondary: #313436;
+  --tertiary: #e5e7eb;
+  --quaternary: #007fff;
+}
+
+[data-theme='dark'] {
+  --primary: #313436;
+  --secondary: #f9fafb;
+  --tertiary: #007fff;
+  --quaternary: #38bdf8;
+}
+
+@layer base {
+  body {
+    @apply text-normal;
+  }
+}

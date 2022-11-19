@@ -1,5 +1,5 @@
 {
-  "hash": "53ab3d1e414140df0ea6",
+  "hash": "3c76212b6a753a2ccf9c",
   "version": "5.74.0",
   "time": null,
   "publicPath": "/public/",
@@ -176,7 +176,7 @@
     {
       "type": "asset",
       "name": "routes-table.bundle.js",
-      "size": 8442,
+      "size": 8563,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -220,7 +220,7 @@
         "main.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "60e2ee8922ac74423465",
+      "hash": "e97abf8e8e05a25c3f43",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [
@@ -13083,9 +13083,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 3139,
+      "size": 3167,
       "sizes": {
-        "javascript": 3139
+        "javascript": 3167
       },
       "names": [
         "routes-table"
@@ -13098,7 +13098,7 @@
         "routes-table.bundle.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0dbf42ad34de3d5f0c19",
+      "hash": "f5b95a94eeecc9ead863",
       "childrenByOrder": {},
       "id": "routes-table",
       "siblings": [
@@ -13187,7 +13187,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../fetchers/listItems",
-              "loc": "21:2-16",
+              "loc": "22:13-27",
               "moduleId": "./client/components/routes/Table.jsx",
               "resolvedModuleId": "./client/components/routes/Table.jsx"
             }
@@ -13203,14 +13203,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1877,
+          "size": 1905,
           "sizes": {
-            "javascript": 1877
+            "javascript": 1905
           },
-          "built": true,
+          "built": false,
           "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\client\\components\\routes\\Table.jsx",
           "name": "./client/components/routes/Table.jsx",
           "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\client\\components\\routes\\Table.jsx",
@@ -25119,7 +25119,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "24:2-11",
+              "loc": "26:2-11",
               "moduleId": "./client/components/routes/Table.jsx",
               "resolvedModuleId": "./client/components/routes/Table.jsx"
             },
@@ -25133,7 +25133,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "40:24-43",
+              "loc": "42:24-43",
               "moduleId": "./client/components/routes/Table.jsx",
               "resolvedModuleId": "./client/components/routes/Table.jsx"
             },
@@ -25147,7 +25147,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "49:24-43",
+              "loc": "51:24-43",
               "moduleId": "./client/components/routes/Table.jsx",
               "resolvedModuleId": "./client/components/routes/Table.jsx"
             },
@@ -25161,7 +25161,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "52:22-41",
+              "loc": "54:22-41",
               "moduleId": "./client/components/routes/Table.jsx",
               "resolvedModuleId": "./client/components/routes/Table.jsx"
             },
@@ -25175,7 +25175,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "52:42-56",
+              "loc": "54:42-56",
               "moduleId": "./client/components/routes/Table.jsx",
               "resolvedModuleId": "./client/components/routes/Table.jsx"
             },
@@ -25189,7 +25189,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "52:77-96",
+              "loc": "54:77-96",
               "moduleId": "./client/components/routes/Table.jsx",
               "resolvedModuleId": "./client/components/routes/Table.jsx"
             },
@@ -25203,7 +25203,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "53:24-43",
+              "loc": "55:24-43",
               "moduleId": "./client/components/routes/Table.jsx",
               "resolvedModuleId": "./client/components/routes/Table.jsx"
             },
@@ -33043,7 +33043,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "24:2-11",
+          "loc": "26:2-11",
           "moduleId": "./client/components/routes/Table.jsx",
           "resolvedModuleId": "./client/components/routes/Table.jsx"
         },
@@ -33057,7 +33057,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "40:24-43",
+          "loc": "42:24-43",
           "moduleId": "./client/components/routes/Table.jsx",
           "resolvedModuleId": "./client/components/routes/Table.jsx"
         },
@@ -33071,7 +33071,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "49:24-43",
+          "loc": "51:24-43",
           "moduleId": "./client/components/routes/Table.jsx",
           "resolvedModuleId": "./client/components/routes/Table.jsx"
         },
@@ -33085,7 +33085,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "52:22-41",
+          "loc": "54:22-41",
           "moduleId": "./client/components/routes/Table.jsx",
           "resolvedModuleId": "./client/components/routes/Table.jsx"
         },
@@ -33099,7 +33099,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "52:42-56",
+          "loc": "54:42-56",
           "moduleId": "./client/components/routes/Table.jsx",
           "resolvedModuleId": "./client/components/routes/Table.jsx"
         },
@@ -33113,7 +33113,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "52:77-96",
+          "loc": "54:77-96",
           "moduleId": "./client/components/routes/Table.jsx",
           "resolvedModuleId": "./client/components/routes/Table.jsx"
         },
@@ -33127,7 +33127,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "53:24-43",
+          "loc": "55:24-43",
           "moduleId": "./client/components/routes/Table.jsx",
           "resolvedModuleId": "./client/components/routes/Table.jsx"
         },
@@ -45468,14 +45468,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1877,
+      "size": 1905,
       "sizes": {
-        "javascript": 1877
+        "javascript": 1905
       },
-      "built": true,
+      "built": false,
       "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\client\\components\\routes\\Table.jsx",
       "name": "./client/components/routes/Table.jsx",
       "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\client\\components\\routes\\Table.jsx",
@@ -49222,7 +49222,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../fetchers/listItems",
-          "loc": "21:2-16",
+          "loc": "22:13-27",
           "moduleId": "./client/components/routes/Table.jsx",
           "resolvedModuleId": "./client/components/routes/Table.jsx"
         }
