@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Button from '../common/Button'
-import Success from '../common/Success'
+import Button from '../components/common/Button'
+import Success from '../components/common/Success'
 
 let outer_circle = {
   //fill: '#fff',

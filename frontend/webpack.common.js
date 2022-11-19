@@ -4,7 +4,7 @@ const Visualizer = require('webpack-visualizer-plugin2')
 const { StatsWriterPlugin } = require('webpack-stats-plugin')
 
 module.exports = {
-  entry: ['./client/index.js'],
+  entry: ['./src/index.js'],
   // target: ['web', 'es5'],
   output: {
     path: path.join(__dirname, '../backend/public/'),

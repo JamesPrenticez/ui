@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { QueryClient, useQuery } from '@tanstack/react-query'
 
-import { number2words } from '../../../utilities/number2words'
+import { number2words } from '../utilities/number2words'
 
 import { fetchListItems } from '../fetchers/listItems'
 

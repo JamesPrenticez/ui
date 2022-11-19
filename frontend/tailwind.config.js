@@ -1,8 +1,9 @@
 module.exports = {
   mode: 'jit',
   content: [
-    './client/.{js,ts,jsx,tsx}',
-    './client/components/**/*.{js,ts,jsx,tsx}',
+    './src/.{js,ts,jsx,tsx}',
+    './src/components/**/*.{js,ts,jsx,tsx}',
+    './src/routes/**/*.{js,ts,jsx,tsx}',
   ],
   media: false, // or 'media' or 'class'
   darkMode: 'class',

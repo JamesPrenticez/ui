@@ -1,9 +1,9 @@
 import React, { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Layout from './layout/Layout'
-import NotFound from './errors/NotFound'
-import InternalServer from './errors/InternalServer'
+import Layout from './components/layout/Layout'
+import NotFound from './components/errors/NotFound'
+import InternalServer from './components/errors/InternalServer'
 
 import Home from './routes/Home'
 // const Home = lazy(() => import(/* webpackChunkName: "routes-home" */ './routes/Home'))

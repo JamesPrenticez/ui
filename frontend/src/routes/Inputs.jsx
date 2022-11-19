@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import Select from '../common/Select'
+import React, { useState } from 'react'
+import Select from '../components/common/Select'
 
 const mockdata = [
   { label: 'one', value: '1' },
