@@ -1,12 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useKeyPressed } from '../../hooks/useKeyPressed'
+import styles from "./select.module.css"
 
-export default function Select({
-  options,
-  value,
-  setSelectedValue,
-  placeholder,
-}) {
+export default function Select(props) {
+  const { options, selectedValue, setSelectedValue, placeholder} = props
+  const containerRef = useRef(null)
   const inputRef = useRef(null)
 
   const [isOpen, setIsOpen] = useState(false)
@@ -40,11 +38,10 @@ export default function Select({
         )
         break
       case 'Enter':
-        //check is value ty
         setSelectedValue(filteredArray[activeIndex])
-        setIsOpen(false)
         setSearchValue('')
         setFilteredArray(options)
+        setIsOpen(false)
         inputRef.current.blur()
         break
       case 'Escape':
@@ -69,27 +66,20 @@ export default function Select({
     updateFilteredArray(e.target.value)
   }
 
+  let filteredOptions = options.filter((item) => filteredArray.includes(item))
+
   return (
     <>
       <div
-        className='
-      relative
-      flex
-      my-1
-      bg-theme-primary
-      text-theme-secondary
-      w-full
-      py-2
-      ring-[0.05rem]
-      ring-theme-tertiary
-      focus:ring-theme-quaternary
-      cursor-pointer
-      rounded-sm
-      '
-        //onClick={() => setIsOpen(true)}
+        // className={styles.container}
+        className={`${isOpen && 'ring-1 ring-theme-quaternary'} relative flex my-1 bg-theme-primary text-theme-secondary w-full py-2 ring-[0.05rem] cursor-pointer rounded-sm`}
+        tabIndex={0}
+        onFocus={() => setIsOpen(true)}
         onBlur={() => setIsOpen(false)}
-        // tabIndex={0}
+        ref={containerRef}
+        
       >
+        {/* Icon */}
         <div className='w-[2rem] flex items-center justify-center pointer-events-none '>
           <svg
             height={20}
@@ -107,31 +97,32 @@ export default function Select({
             />
           </svg>
         </div>
-        {/* {console.log("searchvalue", searchValue)} */}
 
         <input
           ref={inputRef}
           type='text'
           onKeyDown={(e) => handleArrowKeys(e)}
           value={searchValue}
-          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none z-50 bg-transparent'
+          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none z-50 bg-transparent '
           onChange={(e) => handleUpdate(e)}
         />
         <input
           type='text'
+//          placeholder={selectedValue.label}
           placeholder={
             searchValue.length > 0
               ? ''
-              : value.label.length > 0
-              ? value.label
+              : selectedValue.label.length > 0
+              ? selectedValue.label
               : placeholder || 'Select...'
           }
-          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none bg-transparent placeholder:text-white pointer-events-none'
+          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none bg-transparent placeholder:text-black pointer-events-none'
         />
 
+        {/* Carret */}
         <div
-          className='absolute bg-red-500 w-[2rem] right-0 inset-y-0 flex items-center justify-center pointer-events-none'
-          onClick={() => console.log('here')}
+          className='absolute w-[2rem] right-0 inset-y-0 flex items-center justify-center'
+          onClick={() => {setIsOpen(!isOpen), inputRef.current.focus(), console.log("here")}}
         >
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -151,27 +142,38 @@ export default function Select({
               d='M15 19l-7-7 7-7'
             />
           </svg>
-        </div>
+        </div> 
 
-        {isOpen && (
-          <div className='absolute top-12 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer border-[0.05rem] border-theme-quaternary rounded-sm'>
-            {options.length > 0 ? (
-              [...options]
-                .filter((item) => filteredArray.includes(item))
-                .map((item, index) => {
+        {options && (
+          // <div className='absolute block top-12 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer border-[0.05rem] border-theme-quaternary rounded-sm'>
+          <div 
+            className={`${isOpen ? 'block' : 'hidden'} absolute top-10 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer ring-1 ring-theme-quaternary rounded-sm`}
+            // className={`${styles.options} ${isOpen ? styles.show : ""}`}
+          >
+
+            {filteredOptions.length > 0 ? (
+                filteredOptions.map((item, index) => {
                   return (
                     <div
                       key={item.value}
-                      className={`${
-                        activeIndex == index && 'bg-theme-tertiary'
-                      } py-2`}
+                      // className={`${ activeIndex == index && 'bg-theme-tertiary'} py-2`}
+                      className={`${ activeIndex == index && 'bg-red-700 text-white'} py-2`}
+                      onMouseOver={() => setActiveIndex(index)}
+                      onClick={() => {
+                        setSelectedValue(filteredArray[activeIndex])
+                        setSearchValue('')
+                        setFilteredArray(options)
+                        setIsOpen(false)
+                      }}
                     >
                       <span className='pl-2'>{item.label}</span>
                     </div>
                   )
                 })
             ) : (
-              <div></div>
+            <div className='py-2'>
+              <span className='pl-2'>There are no results for your search...</span>
+            </div>
             )}
           </div>
         )}

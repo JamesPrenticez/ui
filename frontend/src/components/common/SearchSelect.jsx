@@ -1,145 +1,122 @@
-import React, { useState, useRef, useEffect } from 'react'
-import { useClickOutside } from '../../hooks/useClickOutside'
-import { useKeyPressed } from '../../hooks/useKeyPressed'
+import React, { useEffect, useRef, useState } from "react"
+import styles from "./select.module.css"
 
-function SearchSelect({ data, selected, setSelected }) {
-  const [filteredArray, setFilteredArray] = useState(
-    data.map((item) => item.name)
-  )
-  const [toggle, setToggle] = useState(false)
-  const [cursor, setCursor] = useState(0)
+export function SearchSelect({ multiple, value, onChange, options }) {
+  const [isOpen, setIsOpen] = useState(false)
+  const [highlightedIndex, setHighlightedIndex] = useState(0)
+  const containerRef = useRef(null)
 
-  const dropDownRef = useRef()
-  useClickOutside(dropDownRef, setToggle)
+  function clearOptions() {
+    multiple ? onChange([]) : onChange(undefined)
+  }
 
-  const downArrowPressed = useKeyPressed('ArrowDown')
-  const upArrowPressed = useKeyPressed('ArrowUp')
-  const enterPressed = useKeyPressed('Enter')
-
-  useEffect(() => {
-    setTimeout(() => {
-      if (toggle && downArrowPressed)
-        setCursor((prevState) =>
-          prevState < data.length - 1 ? prevState + 1 : prevState
-        )
-    }, 100)
-  }, [downArrowPressed, cursor])
-
-  useEffect(() => {
-    setTimeout(() => {
-      if (toggle && upArrowPressed)
-        setCursor((prevState) => (prevState > 0 ? prevState - 1 : prevState))
-    }, 100)
-  }, [upArrowPressed, cursor])
-
-  useEffect(() => {
-    if (toggle && enterPressed) {
-      handleSelection()
+  function selectOption(option) {
+    if (multiple) {
+      if (value.includes(option)) {
+        onChange(value.filter(o => o !== option))
+      } else {
+        onChange([...value, option])
+      }
+    } else {
+      if (option !== value) onChange(option)
     }
-  }, [enterPressed, cursor])
-
-  const updateFilteredArray = (value) => {
-    let filteredArr = data.filter((item) =>
-      item.name.toLowerCase().includes(value.toLowerCase())
-    )
-    setFilteredArray(filteredArr.map((item) => item.name))
   }
 
-  const handleChange = (e) => {
-    setToggle(true)
-    setCursor(0)
-    setSelected(e.target.value)
-    updateFilteredArray(e.target.value)
+  function isOptionSelected(option) {
+    return multiple ? value.includes(option) : option === value
   }
 
-  const handleSelection = () => {
-    setSelected(filteredArray[cursor])
-    updateFilteredArray(filteredArray[cursor])
-    setCursor(0)
-    setToggle(false)
-  }
+  useEffect(() => {
+    if (isOpen) setHighlightedIndex(0)
+  }, [isOpen])
+
+  useEffect(() => {
+    const handler = (e) => {
+      if (e.target != containerRef.current) return
+      switch (e.code) {
+        case "Enter":
+        case "Space":
+          setIsOpen(prev => !prev)
+          if (isOpen) selectOption(options[highlightedIndex])
+          break
+        case "ArrowUp":
+        case "ArrowDown": {
+          if (!isOpen) {
+            setIsOpen(true)
+            break
+          }
+
+          const newValue = highlightedIndex + (e.code === "ArrowDown" ? 1 : -1)
+          if (newValue >= 0 && newValue < options.length) {
+            setHighlightedIndex(newValue)
+          }
+          break
+        }
+        case "Escape":
+          setIsOpen(false)
+          break
+      }
+    }
+    containerRef.current?.addEventListener("keydown", handler)
+
+    return () => {
+      containerRef.current?.removeEventListener("keydown", handler)
+    }
+  }, [isOpen, highlightedIndex, options])
 
   return (
-    <>
-      {/* Search */}
-      <div
-        className='hover:cursor-pointer relative my-1 rounded-md'
-        onClick={() => setToggle(!toggle)}
+    <div
+      ref={containerRef}
+      onBlur={() => setIsOpen(false)}
+      onClick={() => setIsOpen(prev => !prev)}
+      tabIndex={0}
+      className={styles.container}
+    >
+      <span className={styles.value}>
+        {multiple ? value.map(v => (
+              <button
+                key={v.value}
+                onClick={e => {
+                  e.stopPropagation()
+                  selectOption(v)
+                }}
+                className={styles["option-badge"]}
+              >
+                {v.label}
+                <span className={styles["remove-btn"]}>&times;</span>
+              </button>
+            ))
+          : value?.label}
+      </span>
+      <button
+        onClick={e => {
+          e.stopPropagation()
+          clearOptions()
+        }}
+        className={styles["clear-btn"]}
       >
-        <div className='absolute inset-y-0 pl-3 flex items-center pointer-events-none'>
-          <svg
-            className='cursor-pointer h-6 w-6 text-gray-500 '
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 24 24'
-            stroke='currentColor'
-            strokeWidth='2'
+        &times;
+      </button>
+      <div className={styles.divider}></div>
+      <div className={styles.caret}></div>
+      <ul className={`${styles.options} ${isOpen ? styles.show : ""}`}>
+        {options.map((option, index) => (
+          <li
+            onClick={e => {
+              e.stopPropagation()
+              selectOption(option)
+              setIsOpen(false)
+            }}
+            onMouseEnter={() => setHighlightedIndex(index)}
+            key={option.value}
+            className={`${styles.option} ${
+              isOptionSelected(option) ? styles.selected : ""
+            } ${index === highlightedIndex ? styles.highlighted : ""}`}
           >
-            <path
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'
-            />
-          </svg>
-        </div>
-
-        <input
-          type='text'
-          name='selected'
-          value={selected}
-          placeholder='Search for Customer...'
-          className='bg-white block w-full pl-10 py-1 text-lg border-2 border-blue-900 outline-blue-500 rounded-md'
-          onChange={handleChange}
-        />
-
-        <div className='absolute right-2 inset-y-0 pl-3 flex items-center  pointer-events-none'>
-          <svg
-            xmlns='http://www.w3.org/2000/svg'
-            className={`h-6 w-6 text-gray-500 ${
-              !toggle && 'transfrom rotate-90'
-            }`}
-            fill='none'
-            viewBox='0 0 24 24'
-            stroke='currentColor'
-            strokeWidth='2'
-          >
-            <path
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              d='M19 9l-7 7-7-7'
-            />
-          </svg>
-        </div>
-      </div>
-
-      {toggle && (
-        <div
-          className='bg-white cursor-pointer border-2 border-blue-500 rounded-sm'
-          ref={dropDownRef}
-        >
-          {[...data]
-            .filter((item) => filteredArray.includes(item.name))
-            .map((item, index) => {
-              return (
-                <div
-                  key={item.name}
-                  className={`${cursor == index && 'bg-blue-500 text-white'} `}
-                  onMouseOver={() => setCursor(index)}
-                  onMouseDown={handleSelection}
-                >
-                  <span className='pl-3 font-medium'>{index}. &nbsp;</span>
-                  <span className='pl-6'>{item.name}</span>
-                </div>
-              )
-            })}
-        </div>
-      )}
-
-      {/* <p>cursor {cursor}</p>
-      <p>selected {selected}</p>
-      <p>filteredArray {JSON.stringify(filteredArray)}</p> */}
-    </>
+            {option.label}
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
-
-export default SearchSelect
