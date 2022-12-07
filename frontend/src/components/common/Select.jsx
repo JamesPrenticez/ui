@@ -72,12 +72,11 @@ export default function Select(props) {
     <>
       <div
         // className={styles.container}
+        ref={containerRef}
         className={`${isOpen && 'ring-1 ring-theme-quaternary'} relative flex my-1 bg-theme-primary text-theme-secondary w-full py-2 ring-[0.05rem] cursor-pointer rounded-sm`}
         tabIndex={0}
         onFocus={() => setIsOpen(true)}
         onBlur={() => setIsOpen(false)}
-        ref={containerRef}
-        
       >
         {/* Icon */}
         <div className='w-[2rem] flex items-center justify-center pointer-events-none '>
@@ -122,7 +121,7 @@ export default function Select(props) {
         {/* Carret */}
         <div
           className='absolute w-[2rem] right-0 inset-y-0 flex items-center justify-center'
-          onClick={() => {setIsOpen(!isOpen), inputRef.current.focus(), console.log("here")}}
+          onMouseDown={() => {document.activeElement === containerRef.current && isOpen ? setIsOpen(false) : setIsOpen(true)}}
         >
           <svg
             xmlns='http://www.w3.org/2000/svg'

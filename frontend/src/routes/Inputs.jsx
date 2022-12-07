@@ -21,7 +21,7 @@ const options = [
 export default function Inputs(props) {
   document.title = 'inputs'
 
-  const [selectedValue, setSelectedValue] = useState({ label: 'hi', value: 'hi' })
+  const [selectedValue, setSelectedValue] = useState({ label: '', value: '' })
   const [value1, setValue1] = useState([options[0]])
 
   return (

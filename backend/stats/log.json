@@ -1,5 +1,5 @@
 {
-  "hash": "87100f39c4837fb3b972",
+  "hash": "fe049b8012498750e8e2",
   "version": "5.74.0",
   "time": null,
   "publicPath": "/public/",
@@ -7,7 +7,7 @@
   "assetsByChunkName": {
     "main": [
       "main.js",
-      "main.c5634814e12092015a42.hot-update.js"
+      "main.a819066c8dd60522c9d4.hot-update.js"
     ],
     "routes-table": [
       "routes-table.bundle.js"
@@ -17,7 +17,7 @@
     ],
     "routes-inputs": [
       "routes-inputs.bundle.js",
-      "routes-inputs.c5634814e12092015a42.hot-update.js"
+      "routes-inputs.a819066c8dd60522c9d4.hot-update.js"
     ],
     "vendor-corejs": [
       "vendor-corejs.js"
@@ -56,7 +56,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 1256850,
+      "size": 1252214,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -130,7 +130,7 @@
     {
       "type": "asset",
       "name": "routes-inputs.bundle.js",
-      "size": 60669,
+      "size": 59809,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -177,15 +177,15 @@
     },
     {
       "type": "asset",
-      "name": "routes-inputs.c5634814e12092015a42.hot-update.js",
-      "size": 16148,
+      "name": "routes-inputs.a819066c8dd60522c9d4.hot-update.js",
+      "size": 16326,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "c5634814e12092015a42",
+        "fullhash": "a819066c8dd60522c9d4",
         "minimized": true
       },
       "chunkNames": [
@@ -227,7 +227,7 @@
     },
     {
       "type": "asset",
-      "name": "main.c5634814e12092015a42.hot-update.js",
+      "name": "main.a819066c8dd60522c9d4.hot-update.js",
       "size": 557,
       "emitted": false,
       "comparedForEmit": false,
@@ -235,7 +235,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "c5634814e12092015a42",
+        "fullhash": "a819066c8dd60522c9d4",
         "minimized": true
       },
       "chunkNames": [
@@ -253,7 +253,7 @@
     },
     {
       "type": "asset",
-      "name": "main.c5634814e12092015a42.hot-update.json",
+      "name": "main.a819066c8dd60522c9d4.hot-update.json",
       "size": 44,
       "emitted": false,
       "comparedForEmit": false,
@@ -261,7 +261,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "c5634814e12092015a42"
+        "fullhash": "a819066c8dd60522c9d4"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -279,9 +279,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 476452,
+      "size": 474496,
       "sizes": {
-        "javascript": 444995,
+        "javascript": 443039,
         "runtime": 31457
       },
       "names": [
@@ -293,10 +293,10 @@
       ],
       "files": [
         "main.js",
-        "main.c5634814e12092015a42.hot-update.js"
+        "main.a819066c8dd60522c9d4.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "07f83ebda2eba90614be",
+      "hash": "5a3b2c13c922a3b55154",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [
@@ -5858,9 +5858,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 29204,
+          "size": 27248,
           "sizes": {
-            "javascript": 29204
+            "javascript": 27248
           },
           "built": true,
           "codeGenerated": false,
@@ -13106,9 +13106,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 23596,
+      "size": 22872,
       "sizes": {
-        "javascript": 23596
+        "javascript": 22872
       },
       "names": [
         "routes-inputs"
@@ -13119,10 +13119,10 @@
       ],
       "files": [
         "routes-inputs.bundle.js",
-        "routes-inputs.c5634814e12092015a42.hot-update.js"
+        "routes-inputs.a819066c8dd60522c9d4.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "247d89a154e806ecb643",
+      "hash": "5e659c1ecbe72e5bbae9",
       "childrenByOrder": {},
       "id": "routes-inputs",
       "siblings": [],
@@ -13459,9 +13459,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3650,
+          "size": 2876,
           "sizes": {
-            "javascript": 3650
+            "javascript": 2876
           },
           "built": false,
           "codeGenerated": false,
@@ -13533,9 +13533,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 6020,
+          "size": 6074,
           "sizes": {
-            "javascript": 6020
+            "javascript": 6074
           },
           "built": true,
           "codeGenerated": true,
@@ -13712,7 +13712,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./select.module.css",
-              "loc": "87:15-27",
+              "loc": "87:18-32",
               "moduleId": "./src/components/common/SearchSelect.jsx",
               "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
             },
@@ -13726,7 +13726,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./select.module.css",
-              "loc": "94:15-37",
+              "loc": "87:45-56",
               "moduleId": "./src/components/common/SearchSelect.jsx",
               "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
             },
@@ -13740,7 +13740,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./select.module.css",
-              "loc": "96:15-35",
+              "loc": "96:18-31",
               "moduleId": "./src/components/common/SearchSelect.jsx",
               "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
             },
@@ -13754,7 +13754,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./select.module.css",
-              "loc": "102:15-34",
+              "loc": "96:62-77",
               "moduleId": "./src/components/common/SearchSelect.jsx",
               "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
             },
@@ -13768,91 +13768,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./select.module.css",
-              "loc": "104:15-29",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./select.module.css",
-              "loc": "106:15-27",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./select.module.css",
-              "loc": "108:18-32",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./select.module.css",
-              "loc": "108:45-56",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./select.module.css",
-              "loc": "117:18-31",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./select.module.css",
-              "loc": "117:62-77",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./select.module.css",
-              "loc": "117:115-133",
+              "loc": "96:115-133",
               "moduleId": "./src/components/common/SearchSelect.jsx",
               "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
             },
@@ -13989,9 +13905,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4110,
+          "size": 4106,
           "sizes": {
-            "javascript": 4110
+            "javascript": 4106
           },
           "built": false,
           "codeGenerated": false,
@@ -24735,91 +24651,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "88:44-63",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "95:27-46",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "97:90-109",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "103:27-46",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "105:19-38",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "107:19-38",
-              "moduleId": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "module": "./src/components/common/SearchSelect.jsx",
-              "moduleName": "./src/components/common/SearchSelect.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-              "resolvedModule": "./src/components/common/SearchSelect.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "109:49-68",
+              "loc": "88:49-68",
               "moduleId": "./src/components/common/SearchSelect.jsx",
               "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
             },
@@ -32925,91 +32757,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "88:44-63",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "95:27-46",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "97:90-109",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "103:27-46",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "105:19-38",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "107:19-38",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "109:49-68",
+          "loc": "88:49-68",
           "moduleId": "./src/components/common/SearchSelect.jsx",
           "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
         },
@@ -44053,9 +43801,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 29204,
+      "size": 27248,
       "sizes": {
-        "javascript": 29204
+        "javascript": 27248
       },
       "built": true,
       "codeGenerated": false,
@@ -47694,9 +47442,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4110,
+      "size": 4106,
       "sizes": {
-        "javascript": 4110
+        "javascript": 4106
       },
       "built": false,
       "codeGenerated": false,
@@ -52161,9 +51909,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 6020,
+      "size": 6074,
       "sizes": {
-        "javascript": 6020
+        "javascript": 6074
       },
       "built": true,
       "codeGenerated": true,
@@ -52248,9 +51996,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3650,
+      "size": 2876,
       "sizes": {
-        "javascript": 3650
+        "javascript": 2876
       },
       "built": false,
       "codeGenerated": false,
@@ -55868,7 +55616,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./select.module.css",
-          "loc": "87:15-27",
+          "loc": "87:18-32",
           "moduleId": "./src/components/common/SearchSelect.jsx",
           "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
         },
@@ -55882,7 +55630,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./select.module.css",
-          "loc": "94:15-37",
+          "loc": "87:45-56",
           "moduleId": "./src/components/common/SearchSelect.jsx",
           "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
         },
@@ -55896,7 +55644,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./select.module.css",
-          "loc": "96:15-35",
+          "loc": "96:18-31",
           "moduleId": "./src/components/common/SearchSelect.jsx",
           "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
         },
@@ -55910,7 +55658,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./select.module.css",
-          "loc": "102:15-34",
+          "loc": "96:62-77",
           "moduleId": "./src/components/common/SearchSelect.jsx",
           "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
         },
@@ -55924,91 +55672,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./select.module.css",
-          "loc": "104:15-29",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./select.module.css",
-          "loc": "106:15-27",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./select.module.css",
-          "loc": "108:18-32",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./select.module.css",
-          "loc": "108:45-56",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./select.module.css",
-          "loc": "117:18-31",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./select.module.css",
-          "loc": "117:62-77",
-          "moduleId": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "module": "./src/components/common/SearchSelect.jsx",
-          "moduleName": "./src/components/common/SearchSelect.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "resolvedModule": "./src/components/common/SearchSelect.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./select.module.css",
-          "loc": "117:115-133",
+          "loc": "96:115-133",
           "moduleId": "./src/components/common/SearchSelect.jsx",
           "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
         },
@@ -62360,7 +62024,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.c5634814e12092015a42.hot-update.js"
+          "name": "main.a819066c8dd60522c9d4.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -62392,7 +62056,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.c5634814e12092015a42.hot-update.js"
+          "name": "main.a819066c8dd60522c9d4.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -62456,7 +62120,7 @@
           "name": "routes-inputs.bundle.js"
         },
         {
-          "name": "routes-inputs.c5634814e12092015a42.hot-update.js"
+          "name": "routes-inputs.a819066c8dd60522c9d4.hot-update.js"
         }
       ],
       "filteredAssets": 0,

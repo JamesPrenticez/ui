@@ -72,7 +72,7 @@ export function SearchSelect({ multiple, value, onChange, options }) {
       tabIndex={0}
       className={styles.container}
     >
-      <span className={styles.value}>
+      {/* <span className={styles.value}>
         {multiple ? value.map(v => (
               <button
                 key={v.value}
@@ -98,7 +98,7 @@ export function SearchSelect({ multiple, value, onChange, options }) {
         &times;
       </button>
       <div className={styles.divider}></div>
-      <div className={styles.caret}></div>
+      <div className={styles.caret}></div> */}
       <ul className={`${styles.options} ${isOpen ? styles.show : ""}`}>
         {options.map((option, index) => (
           <li
