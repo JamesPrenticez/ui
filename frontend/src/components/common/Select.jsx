@@ -1,11 +1,13 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, createRef } from 'react'
 import { useKeyPressed } from '../../hooks/useKeyPressed'
 import styles from "./select.module.css"
 
 export default function Select(props) {
   const { options, selectedValue, setSelectedValue, placeholder} = props
   const containerRef = useRef(null)
+
   const inputRef = useRef(null)
+  const itemsRef = useRef([])
 
   const [isOpen, setIsOpen] = useState(false)
   const [filteredArray, setFilteredArray] = useState(options)
@@ -23,19 +25,30 @@ export default function Select(props) {
     enterPressed //prevent default so contentEditable doesnt create a new line in the input box
   }, [downArrowPressed, enterPressed])
 
+  function scrollIntoView(direction){
+    switch (direction){
+      case 'up':
+        let diffUp = (activeIndex === 0 ? filteredArray.length - 1 : -1)
+        itemsRef.current[activeIndex + diffUp].scrollIntoView({ behavior: "auto", block: "nearest", inline: "nearest" })
+        break
+      case 'down':
+        let diffDown = (activeIndex === filteredArray.length - 1 ? -activeIndex : 1)
+        itemsRef.current[activeIndex + diffDown].scrollIntoView({ behavior: "auto", block: "end", inline: "nearest" })
+        break
+    }
+  }
+
   const handleArrowKeys = (e) => {
     switch (e.key) {
       case 'ArrowUp':
-        //setActiveIndex(activeIndex === 0 ? filteredArray.length - 1 : activeIndex - 1) // If the index goes below 0, wrap around
-        setActiveIndex((prevState) =>
-          prevState > 0 ? prevState - 1 : prevState
-        )
+        setActiveIndex(activeIndex === 0 ? filteredArray.length - 1 : activeIndex - 1) // If the index goes below 0, send to the bottom
+        //scrollIntoView(activeIndex === 0 ? filteredArray.length - 1 : -1)
+        scrollIntoView("up")
         break
       case 'ArrowDown':
-        //setActiveIndex(activeIndex === filteredArray.length - 1 ? 0 : activeIndex + 1) // If the index goes above the length of the array, wrap around
-        setActiveIndex((prevState) =>
-          prevState < filteredArray.length - 1 ? prevState + 1 : prevState
-        )
+        setActiveIndex(activeIndex === filteredArray.length - 1 ? 0 : activeIndex + 1) // If the index goes above the length of the array, send to top
+        //scrollIntoView(activeIndex === filteredArray.length - 1 ? -activeIndex : 1)
+        scrollIntoView("down")
         break
       case 'Enter':
         setSelectedValue(filteredArray[activeIndex])
@@ -67,6 +80,20 @@ export default function Select(props) {
   }
 
   let filteredOptions = options.filter((item) => filteredArray.includes(item))
+
+  // console.log(activeIndex)
+  // console.log(itemsRef)
+  
+  // useEffect(() => {
+  //   itemsRef.current = itemsRef.current.slice(0, options.length);
+  // }, [options])
+  
+  
+  // useEffect(() => {
+  //   if(itemsRef.current.length > 0){
+  //     itemsRef.current[activeIndex].scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })
+  //   }
+  // }, [activeIndex])
 
   return (
     <>
@@ -146,7 +173,7 @@ export default function Select(props) {
         {options && (
           // <div className='absolute block top-12 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer border-[0.05rem] border-theme-quaternary rounded-sm'>
           <div 
-            className={`${isOpen ? 'block' : 'hidden'} absolute top-10 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer ring-1 ring-theme-quaternary rounded-sm`}
+            className={`${isOpen ? 'block' : 'hidden'} absolute top-10 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer ring-1 ring-theme-quaternary rounded-sm max-h-[10rem] overflow-y-scroll`}
             // className={`${styles.options} ${isOpen ? styles.show : ""}`}
           >
 
@@ -155,6 +182,7 @@ export default function Select(props) {
                   return (
                     <div
                       key={item.value}
+                      ref={ele => itemsRef.current[index] = ele} 
                       // className={`${ activeIndex == index && 'bg-theme-tertiary'} py-2`}
                       className={`${ activeIndex == index && 'bg-red-700 text-white'} py-2`}
                       onMouseOver={() => setActiveIndex(index)}
@@ -182,3 +210,6 @@ export default function Select(props) {
 }
 
 //https://codesandbox.io/s/dropdown-arrow-keys-selection-vg5l8?from-embed=&file=/src/index.js:818-833
+// https://stackoverflow.com/questions/57867894/how-to-scroll-a-list-item-into-view-using-scrollintoview-method-using-reactjs
+// https://stackoverflow.com/questions/54633690/how-can-i-use-multiple-refs-for-an-array-of-elements-with-hooks
+// https://github.com/JamesPrenticez/multiplayer_fighter_game/blob/master/client/components/Chat/ChatRoom.jsx

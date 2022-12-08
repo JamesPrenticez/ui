@@ -8,21 +8,18 @@ const mockdata = [
   { label: 'three', value: '3' },
   { label: 'four', value: '4' },
   { label: 'five', value: '5' },
+  { label: 'six', value: '6' },
+  { label: 'seven', value: '7' },
+  { label: 'eight', value: '8' },
+  { label: 'nine', value: '9' },
+  { label: 'ten', value: '10' },
 ]
 
-const options = [
-  { label: "First", value: 1 },
-  { label: "Second", value: 2 },
-  { label: "Third", value: 3 },
-  { label: "Fourth", value: 4 },
-  { label: "Fifth", value: 5 },
-]
 
 export default function Inputs(props) {
   document.title = 'inputs'
 
   const [selectedValue, setSelectedValue] = useState({ label: '', value: '' })
-  const [value1, setValue1] = useState([options[0]])
 
   return (
     <>
@@ -34,13 +31,6 @@ export default function Inputs(props) {
         setSelectedValue={setSelectedValue}
         placeholder=''
       />
-
-      {/* <SearchSelect
-        multiple
-        options={options}
-        value={value1}
-        onChange={o => setValue1(o)}
-      /> */}
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit sem, commodo vitae placerat elementum, consequat a magna. Vivamus efficitur augue id neque pretium, sit amet maximus magna mollis. Nullam iaculis ex nunc, eu consequat est porttitor quis. Suspendisse potenti. Morbi quis imperdiet metus. Nulla tincidunt nulla aliquet nisi maximus pharetra. Duis aliquet dolor mauris, a fringilla est condimentum at. Nullam tristique ligula ut tellus volutpat aliquet. Pellentesque sodales quis sem in interdum.

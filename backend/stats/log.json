@@ -1,5 +1,5 @@
 {
-  "hash": "fe049b8012498750e8e2",
+  "hash": "48ad4d153e96ea32a187",
   "version": "5.74.0",
   "time": null,
   "publicPath": "/public/",
@@ -7,7 +7,7 @@
   "assetsByChunkName": {
     "main": [
       "main.js",
-      "main.a819066c8dd60522c9d4.hot-update.js"
+      "main.9f92361f1361d1f5cf1a.hot-update.js"
     ],
     "routes-table": [
       "routes-table.bundle.js"
@@ -17,7 +17,7 @@
     ],
     "routes-inputs": [
       "routes-inputs.bundle.js",
-      "routes-inputs.a819066c8dd60522c9d4.hot-update.js"
+      "routes-inputs.9f92361f1361d1f5cf1a.hot-update.js"
     ],
     "vendor-corejs": [
       "vendor-corejs.js"
@@ -56,7 +56,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 1252214,
+      "size": 1252650,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -130,12 +130,38 @@
     {
       "type": "asset",
       "name": "routes-inputs.bundle.js",
-      "size": 59809,
+      "size": 62313,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "routes-inputs"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "routes-inputs"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "routes-inputs.9f92361f1361d1f5cf1a.hot-update.js",
+      "size": 19267,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "9f92361f1361d1f5cf1a",
         "minimized": true
       },
       "chunkNames": [
@@ -177,32 +203,6 @@
     },
     {
       "type": "asset",
-      "name": "routes-inputs.a819066c8dd60522c9d4.hot-update.js",
-      "size": 16326,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "a819066c8dd60522c9d4",
-        "minimized": true
-      },
-      "chunkNames": [
-        "routes-inputs"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "routes-inputs"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "routes-table.bundle.js",
       "size": 8241,
       "emitted": false,
@@ -227,7 +227,7 @@
     },
     {
       "type": "asset",
-      "name": "main.a819066c8dd60522c9d4.hot-update.js",
+      "name": "main.9f92361f1361d1f5cf1a.hot-update.js",
       "size": 557,
       "emitted": false,
       "comparedForEmit": false,
@@ -235,7 +235,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "a819066c8dd60522c9d4",
+        "fullhash": "9f92361f1361d1f5cf1a",
         "minimized": true
       },
       "chunkNames": [
@@ -253,7 +253,7 @@
     },
     {
       "type": "asset",
-      "name": "main.a819066c8dd60522c9d4.hot-update.json",
+      "name": "main.9f92361f1361d1f5cf1a.hot-update.json",
       "size": 44,
       "emitted": false,
       "comparedForEmit": false,
@@ -261,7 +261,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "a819066c8dd60522c9d4"
+        "fullhash": "9f92361f1361d1f5cf1a"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -279,9 +279,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 474496,
+      "size": 474676,
       "sizes": {
-        "javascript": 443039,
+        "javascript": 443219,
         "runtime": 31457
       },
       "names": [
@@ -293,10 +293,10 @@
       ],
       "files": [
         "main.js",
-        "main.a819066c8dd60522c9d4.hot-update.js"
+        "main.9f92361f1361d1f5cf1a.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "5a3b2c13c922a3b55154",
+      "hash": "4faa85985bcd671f1d1f",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [
@@ -5858,9 +5858,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 27248,
+          "size": 27428,
           "sizes": {
-            "javascript": 27248
+            "javascript": 27428
           },
           "built": true,
           "codeGenerated": false,
@@ -13106,9 +13106,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 22872,
+      "size": 24312,
       "sizes": {
-        "javascript": 22872
+        "javascript": 24312
       },
       "names": [
         "routes-inputs"
@@ -13119,10 +13119,10 @@
       ],
       "files": [
         "routes-inputs.bundle.js",
-        "routes-inputs.a819066c8dd60522c9d4.hot-update.js"
+        "routes-inputs.9f92361f1361d1f5cf1a.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "5e659c1ecbe72e5bbae9",
+      "hash": "d1da304c79f80d52447e",
       "childrenByOrder": {},
       "id": "routes-inputs",
       "siblings": [],
@@ -13533,9 +13533,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 6074,
+          "size": 7582,
           "sizes": {
-            "javascript": 6074
+            "javascript": 7582
           },
           "built": true,
           "codeGenerated": true,
@@ -13605,7 +13605,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../components/common/Select",
-              "loc": "43:167-173",
+              "loc": "41:167-173",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             }
@@ -13875,7 +13875,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../hooks/useKeyPressed",
-              "loc": "17:27-40",
+              "loc": "18:27-40",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -13889,7 +13889,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../hooks/useKeyPressed",
-              "loc": "18:23-36",
+              "loc": "19:23-36",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             }
@@ -13905,9 +13905,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4106,
+          "size": 4038,
           "sizes": {
-            "javascript": 4106
+            "javascript": 4038
           },
           "built": false,
           "codeGenerated": false,
@@ -24665,7 +24665,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "1:0-59",
+              "loc": "1:0-70",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24707,7 +24707,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "13:30-38",
+              "loc": "13:19-25",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24721,7 +24721,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "14:44-52",
+              "loc": "14:30-38",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24735,7 +24735,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "15:40-48",
+              "loc": "15:44-52",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24763,7 +24763,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "19:2-11",
+              "loc": "17:40-48",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24777,7 +24777,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "70:22-41",
+              "loc": "20:2-11",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24791,7 +24791,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "70:42-56",
+              "loc": "107:22-41",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24805,7 +24805,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "70:77-96",
+              "loc": "107:42-56",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24819,7 +24819,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "77:18-37",
+              "loc": "107:77-96",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24833,7 +24833,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "79:18-37",
+              "loc": "114:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24847,7 +24847,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "87:18-37",
+              "loc": "116:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24861,7 +24861,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "91:21-40",
+              "loc": "124:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24875,7 +24875,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "98:19-38",
+              "loc": "128:21-40",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24889,7 +24889,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "103:19-38",
+              "loc": "135:19-38",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24903,7 +24903,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "108:18-37",
+              "loc": "140:19-38",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24917,7 +24917,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "117:18-37",
+              "loc": "145:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24931,7 +24931,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "124:2-21",
+              "loc": "154:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24945,7 +24945,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "128:24-43",
+              "loc": "161:2-21",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24959,7 +24959,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "139:20-39",
+              "loc": "165:24-43",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24973,7 +24973,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "142:20-39",
+              "loc": "177:20-39",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24987,7 +24987,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "144:18-37",
+              "loc": "180:20-39",
+              "moduleId": "./src/components/common/Select.jsx",
+              "resolvedModuleId": "./src/components/common/Select.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
+              "module": "./src/components/common/Select.jsx",
+              "moduleName": "./src/components/common/Select.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
+              "resolvedModule": "./src/components/common/Select.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "182:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -26303,7 +26317,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "38:44-52",
+              "loc": "37:44-52",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -26317,7 +26331,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "42:30-38",
+              "loc": "41:22-41",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -26331,7 +26345,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "43:22-41",
+              "loc": "41:42-56",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -26345,7 +26359,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "43:42-56",
+              "loc": "41:77-96",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -26359,7 +26373,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "43:77-96",
+              "loc": "41:147-166",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -26373,21 +26387,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "43:147-166",
-              "moduleId": "./src/routes/Inputs.jsx",
-              "resolvedModuleId": "./src/routes/Inputs.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
-              "module": "./src/routes/Inputs.jsx",
-              "moduleName": "./src/routes/Inputs.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
-              "resolvedModule": "./src/routes/Inputs.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "48:19-38",
+              "loc": "46:19-38",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -32771,7 +32771,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "1:0-59",
+          "loc": "1:0-70",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32813,7 +32813,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "13:30-38",
+          "loc": "13:19-25",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32827,7 +32827,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "14:44-52",
+          "loc": "14:30-38",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32841,7 +32841,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "15:40-48",
+          "loc": "15:44-52",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32869,7 +32869,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "19:2-11",
+          "loc": "17:40-48",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32883,7 +32883,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "70:22-41",
+          "loc": "20:2-11",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32897,7 +32897,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "70:42-56",
+          "loc": "107:22-41",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32911,7 +32911,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "70:77-96",
+          "loc": "107:42-56",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32925,7 +32925,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "77:18-37",
+          "loc": "107:77-96",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32939,7 +32939,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "79:18-37",
+          "loc": "114:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32953,7 +32953,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "87:18-37",
+          "loc": "116:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32967,7 +32967,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "91:21-40",
+          "loc": "124:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32981,7 +32981,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "98:19-38",
+          "loc": "128:21-40",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32995,7 +32995,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "103:19-38",
+          "loc": "135:19-38",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33009,7 +33009,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "108:18-37",
+          "loc": "140:19-38",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33023,7 +33023,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "117:18-37",
+          "loc": "145:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33037,7 +33037,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "124:2-21",
+          "loc": "154:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33051,7 +33051,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "128:24-43",
+          "loc": "161:2-21",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33065,7 +33065,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "139:20-39",
+          "loc": "165:24-43",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33079,7 +33079,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "142:20-39",
+          "loc": "177:20-39",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33093,7 +33093,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "144:18-37",
+          "loc": "180:20-39",
+          "moduleId": "./src/components/common/Select.jsx",
+          "resolvedModuleId": "./src/components/common/Select.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
+          "module": "./src/components/common/Select.jsx",
+          "moduleName": "./src/components/common/Select.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
+          "resolvedModule": "./src/components/common/Select.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "182:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -34409,7 +34423,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "38:44-52",
+          "loc": "37:44-52",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -34423,7 +34437,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "42:30-38",
+          "loc": "41:22-41",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -34437,7 +34451,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "43:22-41",
+          "loc": "41:42-56",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -34451,7 +34465,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "43:42-56",
+          "loc": "41:77-96",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -34465,7 +34479,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "43:77-96",
+          "loc": "41:147-166",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -34479,21 +34493,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "43:147-166",
-          "moduleId": "./src/routes/Inputs.jsx",
-          "resolvedModuleId": "./src/routes/Inputs.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
-          "module": "./src/routes/Inputs.jsx",
-          "moduleName": "./src/routes/Inputs.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
-          "resolvedModule": "./src/routes/Inputs.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "48:19-38",
+          "loc": "46:19-38",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -43801,9 +43801,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 27248,
+      "size": 27428,
       "sizes": {
-        "javascript": 27248
+        "javascript": 27428
       },
       "built": true,
       "codeGenerated": false,
@@ -47442,9 +47442,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4106,
+      "size": 4038,
       "sizes": {
-        "javascript": 4106
+        "javascript": 4038
       },
       "built": false,
       "codeGenerated": false,
@@ -51909,9 +51909,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 6074,
+      "size": 7582,
       "sizes": {
-        "javascript": 6074
+        "javascript": 7582
       },
       "built": true,
       "codeGenerated": true,
@@ -51980,7 +51980,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../components/common/Select",
-          "loc": "43:167-173",
+          "loc": "41:167-173",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         }
@@ -55496,7 +55496,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../hooks/useKeyPressed",
-          "loc": "17:27-40",
+          "loc": "18:27-40",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -55510,7 +55510,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../hooks/useKeyPressed",
-          "loc": "18:23-36",
+          "loc": "19:23-36",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         }
@@ -62024,7 +62024,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.a819066c8dd60522c9d4.hot-update.js"
+          "name": "main.9f92361f1361d1f5cf1a.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -62056,7 +62056,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.a819066c8dd60522c9d4.hot-update.js"
+          "name": "main.9f92361f1361d1f5cf1a.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -62120,7 +62120,7 @@
           "name": "routes-inputs.bundle.js"
         },
         {
-          "name": "routes-inputs.a819066c8dd60522c9d4.hot-update.js"
+          "name": "routes-inputs.9f92361f1361d1f5cf1a.hot-update.js"
         }
       ],
       "filteredAssets": 0,
