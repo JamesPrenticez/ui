@@ -1,5 +1,5 @@
 {
-  "hash": "48ad4d153e96ea32a187",
+  "hash": "8e1988118e9d5e2fabcf",
   "version": "5.74.0",
   "time": null,
   "publicPath": "/public/",
@@ -7,7 +7,7 @@
   "assetsByChunkName": {
     "main": [
       "main.js",
-      "main.9f92361f1361d1f5cf1a.hot-update.js"
+      "main.098c7b133dfdcd1acb22.hot-update.js"
     ],
     "routes-table": [
       "routes-table.bundle.js"
@@ -17,7 +17,7 @@
     ],
     "routes-inputs": [
       "routes-inputs.bundle.js",
-      "routes-inputs.9f92361f1361d1f5cf1a.hot-update.js"
+      "routes-inputs.098c7b133dfdcd1acb22.hot-update.js"
     ],
     "vendor-corejs": [
       "vendor-corejs.js"
@@ -56,7 +56,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 1252650,
+      "size": 1253149,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -130,7 +130,7 @@
     {
       "type": "asset",
       "name": "routes-inputs.bundle.js",
-      "size": 62313,
+      "size": 61250,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -153,15 +153,15 @@
     },
     {
       "type": "asset",
-      "name": "routes-inputs.9f92361f1361d1f5cf1a.hot-update.js",
-      "size": 19267,
+      "name": "routes-inputs.098c7b133dfdcd1acb22.hot-update.js",
+      "size": 16874,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "9f92361f1361d1f5cf1a",
+        "fullhash": "098c7b133dfdcd1acb22",
         "minimized": true
       },
       "chunkNames": [
@@ -227,7 +227,7 @@
     },
     {
       "type": "asset",
-      "name": "main.9f92361f1361d1f5cf1a.hot-update.js",
+      "name": "main.098c7b133dfdcd1acb22.hot-update.js",
       "size": 557,
       "emitted": false,
       "comparedForEmit": false,
@@ -235,7 +235,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "9f92361f1361d1f5cf1a",
+        "fullhash": "098c7b133dfdcd1acb22",
         "minimized": true
       },
       "chunkNames": [
@@ -253,7 +253,7 @@
     },
     {
       "type": "asset",
-      "name": "main.9f92361f1361d1f5cf1a.hot-update.json",
+      "name": "main.098c7b133dfdcd1acb22.hot-update.json",
       "size": 44,
       "emitted": false,
       "comparedForEmit": false,
@@ -261,7 +261,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "9f92361f1361d1f5cf1a"
+        "fullhash": "098c7b133dfdcd1acb22"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -279,9 +279,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 474676,
+      "size": 474883,
       "sizes": {
-        "javascript": 443219,
+        "javascript": 443426,
         "runtime": 31457
       },
       "names": [
@@ -293,10 +293,10 @@
       ],
       "files": [
         "main.js",
-        "main.9f92361f1361d1f5cf1a.hot-update.js"
+        "main.098c7b133dfdcd1acb22.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "4faa85985bcd671f1d1f",
+      "hash": "b22d5b9a3a0e41462c15",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [
@@ -5858,9 +5858,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 27428,
+          "size": 27635,
           "sizes": {
-            "javascript": 27428
+            "javascript": 27635
           },
           "built": true,
           "codeGenerated": false,
@@ -13106,9 +13106,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 24312,
+      "size": 23580,
       "sizes": {
-        "javascript": 24312
+        "javascript": 23580
       },
       "names": [
         "routes-inputs"
@@ -13119,10 +13119,10 @@
       ],
       "files": [
         "routes-inputs.bundle.js",
-        "routes-inputs.9f92361f1361d1f5cf1a.hot-update.js"
+        "routes-inputs.098c7b133dfdcd1acb22.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "d1da304c79f80d52447e",
+      "hash": "bcea9b7d567af5702bd4",
       "childrenByOrder": {},
       "id": "routes-inputs",
       "siblings": [],
@@ -13148,10 +13148,10 @@
           "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\postcss-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\select.module.css",
           "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/common/select.module.css",
           "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\select.module.css",
-          "index": 170,
-          "preOrderIndex": 170,
-          "index2": 167,
-          "postOrderIndex": 167,
+          "index": 171,
+          "preOrderIndex": 171,
+          "index2": 168,
+          "postOrderIndex": 168,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -13470,8 +13470,8 @@
           "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
           "name": "./src/components/common/SearchSelect.jsx",
           "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-          "index": 171,
-          "preOrderIndex": 171,
+          "index": 169,
+          "preOrderIndex": 169,
           "index2": 170,
           "postOrderIndex": 170,
           "cacheable": true,
@@ -13533,9 +13533,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 7582,
+          "size": 6280,
           "sizes": {
-            "javascript": 7582
+            "javascript": 6280
           },
           "built": true,
           "codeGenerated": true,
@@ -13546,8 +13546,8 @@
           "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
           "index": 167,
           "preOrderIndex": 167,
-          "index2": 169,
-          "postOrderIndex": 169,
+          "index2": 167,
+          "postOrderIndex": 167,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -13632,10 +13632,10 @@
           "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\style-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\postcss-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\select.module.css",
           "name": "./src/components/common/select.module.css",
           "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\select.module.css",
-          "index": 169,
-          "preOrderIndex": 169,
-          "index2": 168,
-          "postOrderIndex": 168,
+          "index": 170,
+          "preOrderIndex": 170,
+          "index2": 169,
+          "postOrderIndex": 169,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -13771,20 +13771,6 @@
               "loc": "96:115-133",
               "moduleId": "./src/components/common/SearchSelect.jsx",
               "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-              "module": "./src/components/common/Select.jsx",
-              "moduleName": "./src/components/common/Select.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-              "resolvedModule": "./src/components/common/Select.jsx",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./select.module.css",
-              "loc": "3:0-41",
-              "moduleId": "./src/components/common/Select.jsx",
-              "resolvedModuleId": "./src/components/common/Select.jsx"
             }
           ],
           "usedExports": null,
@@ -13875,7 +13861,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../hooks/useKeyPressed",
-              "loc": "18:27-40",
+              "loc": "20:27-40",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -13889,7 +13875,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../hooks/useKeyPressed",
-              "loc": "19:23-36",
+              "loc": "21:23-36",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             }
@@ -13905,9 +13891,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4038,
+          "size": 4608,
           "sizes": {
-            "javascript": 4038
+            "javascript": 4608
           },
           "built": false,
           "codeGenerated": false,
@@ -24665,7 +24651,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "1:0-70",
+              "loc": "1:0-59",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24679,21 +24665,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "11:23-29",
-              "moduleId": "./src/components/common/Select.jsx",
-              "resolvedModuleId": "./src/components/common/Select.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-              "module": "./src/components/common/Select.jsx",
-              "moduleName": "./src/components/common/Select.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-              "resolvedModule": "./src/components/common/Select.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "12:19-25",
+              "loc": "12:23-29",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24721,7 +24693,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "14:30-38",
+              "loc": "14:19-25",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24735,7 +24707,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "15:44-52",
+              "loc": "15:30-38",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24749,7 +24721,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "16:40-48",
+              "loc": "16:44-52",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24777,7 +24749,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "20:2-11",
+              "loc": "18:40-48",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24791,7 +24763,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "107:22-41",
+              "loc": "22:2-11",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24805,7 +24777,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "107:42-56",
+              "loc": "96:22-41",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24819,7 +24791,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "107:77-96",
+              "loc": "96:42-56",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24833,7 +24805,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "114:18-37",
+              "loc": "96:77-96",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24847,7 +24819,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "116:18-37",
+              "loc": "103:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24861,7 +24833,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "124:18-37",
+              "loc": "105:25-44",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24875,7 +24847,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "128:21-40",
+              "loc": "113:19-38",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24889,7 +24861,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "135:19-38",
+              "loc": "118:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24903,7 +24875,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "140:19-38",
+              "loc": "127:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24917,7 +24889,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "145:18-37",
+              "loc": "131:32-51",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24931,7 +24903,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "154:18-37",
+              "loc": "134:24-43",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24945,7 +24917,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "161:2-21",
+              "loc": "146:20-39",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24959,7 +24931,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "165:24-43",
+              "loc": "149:20-39",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -24973,35 +24945,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "177:20-39",
-              "moduleId": "./src/components/common/Select.jsx",
-              "resolvedModuleId": "./src/components/common/Select.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-              "module": "./src/components/common/Select.jsx",
-              "moduleName": "./src/components/common/Select.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-              "resolvedModule": "./src/components/common/Select.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "180:20-39",
-              "moduleId": "./src/components/common/Select.jsx",
-              "resolvedModuleId": "./src/components/common/Select.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-              "module": "./src/components/common/Select.jsx",
-              "moduleName": "./src/components/common/Select.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-              "resolvedModule": "./src/components/common/Select.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "182:18-37",
+              "loc": "151:18-37",
               "moduleId": "./src/components/common/Select.jsx",
               "resolvedModuleId": "./src/components/common/Select.jsx"
             },
@@ -26387,7 +26331,49 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "46:19-38",
+              "loc": "46:35-54",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "50:19-38",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "58:22-41",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "66:18-37",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -32771,7 +32757,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "1:0-70",
+          "loc": "1:0-59",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32785,21 +32771,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "11:23-29",
-          "moduleId": "./src/components/common/Select.jsx",
-          "resolvedModuleId": "./src/components/common/Select.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-          "module": "./src/components/common/Select.jsx",
-          "moduleName": "./src/components/common/Select.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-          "resolvedModule": "./src/components/common/Select.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "12:19-25",
+          "loc": "12:23-29",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32827,7 +32799,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "14:30-38",
+          "loc": "14:19-25",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32841,7 +32813,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "15:44-52",
+          "loc": "15:30-38",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32855,7 +32827,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "16:40-48",
+          "loc": "16:44-52",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32883,7 +32855,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "20:2-11",
+          "loc": "18:40-48",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32897,7 +32869,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "107:22-41",
+          "loc": "22:2-11",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32911,7 +32883,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "107:42-56",
+          "loc": "96:22-41",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32925,7 +32897,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "107:77-96",
+          "loc": "96:42-56",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32939,7 +32911,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "114:18-37",
+          "loc": "96:77-96",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32953,7 +32925,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "116:18-37",
+          "loc": "103:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32967,7 +32939,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "124:18-37",
+          "loc": "105:25-44",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32981,7 +32953,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "128:21-40",
+          "loc": "113:19-38",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -32995,7 +32967,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "135:19-38",
+          "loc": "118:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33009,7 +32981,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "140:19-38",
+          "loc": "127:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33023,7 +32995,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "145:18-37",
+          "loc": "131:32-51",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33037,7 +33009,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "154:18-37",
+          "loc": "134:24-43",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33051,7 +33023,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "161:2-21",
+          "loc": "146:20-39",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33065,7 +33037,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "165:24-43",
+          "loc": "149:20-39",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -33079,35 +33051,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "177:20-39",
-          "moduleId": "./src/components/common/Select.jsx",
-          "resolvedModuleId": "./src/components/common/Select.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-          "module": "./src/components/common/Select.jsx",
-          "moduleName": "./src/components/common/Select.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-          "resolvedModule": "./src/components/common/Select.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "180:20-39",
-          "moduleId": "./src/components/common/Select.jsx",
-          "resolvedModuleId": "./src/components/common/Select.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-          "module": "./src/components/common/Select.jsx",
-          "moduleName": "./src/components/common/Select.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-          "resolvedModule": "./src/components/common/Select.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "182:18-37",
+          "loc": "151:18-37",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -34493,7 +34437,49 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "46:19-38",
+          "loc": "46:35-54",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "50:19-38",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "58:22-41",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "66:18-37",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -43801,9 +43787,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 27428,
+      "size": 27635,
       "sizes": {
-        "javascript": 27428
+        "javascript": 27635
       },
       "built": true,
       "codeGenerated": false,
@@ -47442,9 +47428,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4038,
+      "size": 4608,
       "sizes": {
-        "javascript": 4038
+        "javascript": 4608
       },
       "built": false,
       "codeGenerated": false,
@@ -51909,9 +51895,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 7582,
+      "size": 6280,
       "sizes": {
-        "javascript": 7582
+        "javascript": 6280
       },
       "built": true,
       "codeGenerated": true,
@@ -51922,8 +51908,8 @@
       "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
       "index": 167,
       "preOrderIndex": 167,
-      "index2": 169,
-      "postOrderIndex": 169,
+      "index2": 167,
+      "postOrderIndex": 167,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -52007,8 +51993,8 @@
       "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
       "name": "./src/components/common/SearchSelect.jsx",
       "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\SearchSelect.jsx",
-      "index": 171,
-      "preOrderIndex": 171,
+      "index": 169,
+      "preOrderIndex": 169,
       "index2": 170,
       "postOrderIndex": 170,
       "cacheable": true,
@@ -55496,7 +55482,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../hooks/useKeyPressed",
-          "loc": "18:27-40",
+          "loc": "20:27-40",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         },
@@ -55510,7 +55496,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../hooks/useKeyPressed",
-          "loc": "19:23-36",
+          "loc": "21:23-36",
           "moduleId": "./src/components/common/Select.jsx",
           "resolvedModuleId": "./src/components/common/Select.jsx"
         }
@@ -55537,10 +55523,10 @@
       "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\style-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\postcss-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\select.module.css",
       "name": "./src/components/common/select.module.css",
       "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\select.module.css",
-      "index": 169,
-      "preOrderIndex": 169,
-      "index2": 168,
-      "postOrderIndex": 168,
+      "index": 170,
+      "preOrderIndex": 170,
+      "index2": 169,
+      "postOrderIndex": 169,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -55675,20 +55661,6 @@
           "loc": "96:115-133",
           "moduleId": "./src/components/common/SearchSelect.jsx",
           "resolvedModuleId": "./src/components/common/SearchSelect.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-          "module": "./src/components/common/Select.jsx",
-          "moduleName": "./src/components/common/Select.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
-          "resolvedModule": "./src/components/common/Select.jsx",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./select.module.css",
-          "loc": "3:0-41",
-          "moduleId": "./src/components/common/Select.jsx",
-          "resolvedModuleId": "./src/components/common/Select.jsx"
         }
       ],
       "usedExports": null,
@@ -58375,10 +58347,10 @@
       "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\postcss-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\select.module.css",
       "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/common/select.module.css",
       "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\select.module.css",
-      "index": 170,
-      "preOrderIndex": 170,
-      "index2": 167,
-      "postOrderIndex": 167,
+      "index": 171,
+      "preOrderIndex": 171,
+      "index2": 168,
+      "postOrderIndex": 168,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -62024,7 +61996,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.9f92361f1361d1f5cf1a.hot-update.js"
+          "name": "main.098c7b133dfdcd1acb22.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -62056,7 +62028,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.9f92361f1361d1f5cf1a.hot-update.js"
+          "name": "main.098c7b133dfdcd1acb22.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -62120,7 +62092,7 @@
           "name": "routes-inputs.bundle.js"
         },
         {
-          "name": "routes-inputs.9f92361f1361d1f5cf1a.hot-update.js"
+          "name": "routes-inputs.098c7b133dfdcd1acb22.hot-update.js"
         }
       ],
       "filteredAssets": 0,

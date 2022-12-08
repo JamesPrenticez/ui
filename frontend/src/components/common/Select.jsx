@@ -1,18 +1,20 @@
-import React, { useState, useEffect, useRef, createRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { useKeyPressed } from '../../hooks/useKeyPressed'
-import styles from "./select.module.css"
 
 export default function Select(props) {
-  const { options, selectedValue, setSelectedValue, placeholder} = props
-  const containerRef = useRef(null)
+  const { options, selectedValue, setSelectedValue, placeholder, renderIcon} = props
+  let icon = renderIcon()
 
+  const containerRef = useRef(null)
   const inputRef = useRef(null)
   const itemsRef = useRef([])
 
   const [isOpen, setIsOpen] = useState(false)
+
   const [filteredArray, setFilteredArray] = useState(options)
   const [activeIndex, setActiveIndex] = useState(0)
   const [searchValue, setSearchValue] = useState('')
+  let filteredOptions = options.filter((item) => filteredArray.includes(item))
 
   const downArrowPressed = useKeyPressed('ArrowDown')
   const enterPressed = useKeyPressed('Enter')
@@ -25,7 +27,7 @@ export default function Select(props) {
     enterPressed //prevent default so contentEditable doesnt create a new line in the input box
   }, [downArrowPressed, enterPressed])
 
-  function scrollIntoView(direction){
+  const scrollIntoView = (direction) => {
     switch (direction){
       case 'up':
         let diffUp = (activeIndex === 0 ? filteredArray.length - 1 : -1)
@@ -42,12 +44,10 @@ export default function Select(props) {
     switch (e.key) {
       case 'ArrowUp':
         setActiveIndex(activeIndex === 0 ? filteredArray.length - 1 : activeIndex - 1) // If the index goes below 0, send to the bottom
-        //scrollIntoView(activeIndex === 0 ? filteredArray.length - 1 : -1)
         scrollIntoView("up")
         break
       case 'ArrowDown':
         setActiveIndex(activeIndex === filteredArray.length - 1 ? 0 : activeIndex + 1) // If the index goes above the length of the array, send to top
-        //scrollIntoView(activeIndex === filteredArray.length - 1 ? -activeIndex : 1)
         scrollIntoView("down")
         break
       case 'Enter':
@@ -79,21 +79,7 @@ export default function Select(props) {
     updateFilteredArray(e.target.value)
   }
 
-  let filteredOptions = options.filter((item) => filteredArray.includes(item))
 
-  // console.log(activeIndex)
-  // console.log(itemsRef)
-  
-  // useEffect(() => {
-  //   itemsRef.current = itemsRef.current.slice(0, options.length);
-  // }, [options])
-  
-  
-  // useEffect(() => {
-  //   if(itemsRef.current.length > 0){
-  //     itemsRef.current[activeIndex].scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })
-  //   }
-  // }, [activeIndex])
 
   return (
     <>
@@ -107,34 +93,17 @@ export default function Select(props) {
       >
         {/* Icon */}
         <div className='w-[2rem] flex items-center justify-center pointer-events-none '>
-          <svg
-            height={20}
-            width={20}
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 24 24'
-            stroke='currentColor'
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'
-            />
-          </svg>
+          {icon}
         </div>
 
+        {/* Text Input / Search Box */}
         <input
           ref={inputRef}
           type='text'
           onKeyDown={(e) => handleArrowKeys(e)}
           value={searchValue}
-          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none z-50 bg-transparent '
+          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none z-50 bg-transparent placeholder:text-theme-secondary'
           onChange={(e) => handleUpdate(e)}
-        />
-        <input
-          type='text'
-//          placeholder={selectedValue.label}
           placeholder={
             searchValue.length > 0
               ? ''
@@ -142,7 +111,6 @@ export default function Select(props) {
               ? selectedValue.label
               : placeholder || 'Select...'
           }
-          className='absolute flex items-center left-[2rem] right-[2rem] inset-y-0 outline-none bg-transparent placeholder:text-black pointer-events-none'
         />
 
         {/* Carret */}
@@ -171,36 +139,33 @@ export default function Select(props) {
         </div> 
 
         {options && (
-          // <div className='absolute block top-12 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer border-[0.05rem] border-theme-quaternary rounded-sm'>
           <div 
             className={`${isOpen ? 'block' : 'hidden'} absolute top-10 right-0 left-0 bg-theme-primary text-theme-secondary cursor-pointer ring-1 ring-theme-quaternary rounded-sm max-h-[10rem] overflow-y-scroll`}
-            // className={`${styles.options} ${isOpen ? styles.show : ""}`}
           >
-
             {filteredOptions.length > 0 ? (
-                filteredOptions.map((item, index) => {
-                  return (
-                    <div
-                      key={item.value}
-                      ref={ele => itemsRef.current[index] = ele} 
-                      // className={`${ activeIndex == index && 'bg-theme-tertiary'} py-2`}
-                      className={`${ activeIndex == index && 'bg-red-700 text-white'} py-2`}
-                      onMouseOver={() => setActiveIndex(index)}
-                      onClick={() => {
-                        setSelectedValue(filteredArray[activeIndex])
-                        setSearchValue('')
-                        setFilteredArray(options)
-                        setIsOpen(false)
-                      }}
-                    >
-                      <span className='pl-2'>{item.label}</span>
-                    </div>
-                  )
-                })
-            ) : (
-            <div className='py-2'>
-              <span className='pl-2'>There are no results for your search...</span>
-            </div>
+              filteredOptions.map((item, index) => {
+                return (
+                  <div
+                    key={item.value}
+                    ref={ele => itemsRef.current[index] = ele} 
+                    // className={`${ activeIndex == index && 'bg-theme-tertiary'} py-2`}
+                    className={`${ activeIndex == index && 'bg-red-700 text-white'} py-2`}
+                    onMouseOver={() => setActiveIndex(index)}
+                    onClick={() => {
+                      setSelectedValue(filteredArray[activeIndex])
+                      setSearchValue('')
+                      setFilteredArray(options)
+                      setIsOpen(false)
+                    }}
+                  >
+                    <span className='pl-2'>{item.label}</span>
+                  </div>
+                )
+              })
+              ) : (
+              <div className='py-2'>
+                <span className='pl-2'>There are no results for your search...</span>
+              </div>
             )}
           </div>
         )}
@@ -209,7 +174,10 @@ export default function Select(props) {
   )
 }
 
-//https://codesandbox.io/s/dropdown-arrow-keys-selection-vg5l8?from-embed=&file=/src/index.js:818-833
+
+
+// https://codesandbox.io/s/dropdown-arrow-keys-selection-vg5l8?from-embed=&file=/src/index.js:818-833
 // https://stackoverflow.com/questions/57867894/how-to-scroll-a-list-item-into-view-using-scrollintoview-method-using-reactjs
 // https://stackoverflow.com/questions/54633690/how-can-i-use-multiple-refs-for-an-array-of-elements-with-hooks
 // https://github.com/JamesPrenticez/multiplayer_fighter_game/blob/master/client/components/Chat/ChatRoom.jsx
+// https://www.developerway.com/posts/react-component-as-prop-the-right-way

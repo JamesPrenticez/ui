@@ -30,6 +30,9 @@ export default function Inputs(props) {
         selectedValue={selectedValue}
         setSelectedValue={setSelectedValue}
         placeholder=''
+        renderIcon={() => (
+          <SearchIcon height={20} width={20}/>
+        )}
       />
 
       <p>
@@ -41,6 +44,26 @@ export default function Inputs(props) {
       </p>
 
     </>
+  )
+}
+
+function SearchIcon({height, width}){
+  return (
+  <svg
+    height={height}
+    width={width}
+    xmlns='http://www.w3.org/2000/svg'
+    fill='none'
+    viewBox='0 0 24 24'
+    stroke='currentColor'
+    strokeWidth={2}
+  >
+    <path
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'
+    />
+  </svg>
   )
 }
 
