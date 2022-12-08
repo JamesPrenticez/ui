@@ -1,13 +1,12 @@
 {
-  "hash": "8e1988118e9d5e2fabcf",
+  "hash": "8f6fc506d1170d910d47",
   "version": "5.74.0",
   "time": null,
   "publicPath": "/public/",
   "outputPath": "C:\\Users\\prent\\github\\ui\\backend\\public\\",
   "assetsByChunkName": {
     "main": [
-      "main.js",
-      "main.098c7b133dfdcd1acb22.hot-update.js"
+      "main.js"
     ],
     "routes-table": [
       "routes-table.bundle.js"
@@ -16,8 +15,7 @@
       "routes-animations.bundle.js"
     ],
     "routes-inputs": [
-      "routes-inputs.bundle.js",
-      "routes-inputs.098c7b133dfdcd1acb22.hot-update.js"
+      "routes-inputs.bundle.js"
     ],
     "vendor-corejs": [
       "vendor-corejs.js"
@@ -56,7 +54,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 1253149,
+      "size": 1252065,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -130,38 +128,12 @@
     {
       "type": "asset",
       "name": "routes-inputs.bundle.js",
-      "size": 61250,
+      "size": 62430,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "javascriptModule": false,
-        "minimized": true
-      },
-      "chunkNames": [
-        "routes-inputs"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "routes-inputs"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "routes-inputs.098c7b133dfdcd1acb22.hot-update.js",
-      "size": 16874,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "098c7b133dfdcd1acb22",
         "minimized": true
       },
       "chunkNames": [
@@ -224,64 +196,17 @@
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.098c7b133dfdcd1acb22.hot-update.js",
-      "size": 557,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "098c7b133dfdcd1acb22",
-        "minimized": true
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "main"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "main.098c7b133dfdcd1acb22.hot-update.json",
-      "size": 44,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "098c7b133dfdcd1acb22"
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
     }
   ],
   "chunks": [
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 474883,
+      "size": 474431,
       "sizes": {
-        "javascript": 443426,
+        "javascript": 442974,
         "runtime": 31457
       },
       "names": [
@@ -292,11 +217,10 @@
         "main"
       ],
       "files": [
-        "main.js",
-        "main.098c7b133dfdcd1acb22.hot-update.js"
+        "main.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "b22d5b9a3a0e41462c15",
+      "hash": "7106cd1be390bfe0a928",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [
@@ -5858,9 +5782,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 27635,
+          "size": 27183,
           "sizes": {
-            "javascript": 27635
+            "javascript": 27183
           },
           "built": true,
           "codeGenerated": false,
@@ -11071,20 +10995,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
+          "issuerName": "./node_modules/webpack/hot/dev-server.js",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/log.js",
-          "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
             "main"
           ],
@@ -12185,9 +12109,9 @@
             "runtime": 886
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/chunk loaded",
           "name": "webpack/runtime/chunk loaded",
           "nameForCondition": null,
@@ -12221,9 +12145,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -12257,9 +12181,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -12293,9 +12217,9 @@
             "runtime": 326
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/ensure chunk",
           "name": "webpack/runtime/ensure chunk",
           "nameForCondition": null,
@@ -12329,9 +12253,9 @@
             "runtime": 174
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get javascript chunk filename",
           "name": "webpack/runtime/get javascript chunk filename",
           "nameForCondition": null,
@@ -12365,9 +12289,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -12401,9 +12325,9 @@
             "runtime": 90
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -12437,9 +12361,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -12473,9 +12397,9 @@
             "runtime": 221
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/global",
           "name": "webpack/runtime/global",
           "nameForCondition": null,
@@ -12509,9 +12433,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -12545,9 +12469,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -12581,9 +12505,9 @@
             "runtime": 17515
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -12617,9 +12541,9 @@
             "runtime": 1505
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -12653,9 +12577,9 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
           "nameForCondition": null,
@@ -12689,9 +12613,9 @@
             "runtime": 123
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/node module decorator",
           "name": "webpack/runtime/node module decorator",
           "nameForCondition": null,
@@ -12725,9 +12649,9 @@
             "runtime": 35
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/nonce",
           "name": "webpack/runtime/nonce",
           "nameForCondition": null,
@@ -12761,9 +12685,9 @@
             "runtime": 35
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -13102,13 +13026,13 @@
       ]
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 23580,
+      "size": 24251,
       "sizes": {
-        "javascript": 23580
+        "javascript": 24251
       },
       "names": [
         "routes-inputs"
@@ -13118,11 +13042,10 @@
         "main"
       ],
       "files": [
-        "routes-inputs.bundle.js",
-        "routes-inputs.098c7b133dfdcd1acb22.hot-update.js"
+        "routes-inputs.bundle.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "bcea9b7d567af5702bd4",
+      "hash": "0f604e969c8050da62e4",
       "childrenByOrder": {},
       "id": "routes-inputs",
       "siblings": [],
@@ -13533,12 +13456,12 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 6280,
+          "size": 6377,
           "sizes": {
-            "javascript": 6280
+            "javascript": 6377
           },
           "built": true,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
           "cached": false,
           "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
@@ -13605,7 +13528,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../components/common/Select",
-              "loc": "41:167-173",
+              "loc": "45:38-44",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             }
@@ -13891,9 +13814,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4608,
+          "size": 5182,
           "sizes": {
-            "javascript": 4608
+            "javascript": 5182
           },
           "built": false,
           "codeGenerated": false,
@@ -26331,7 +26254,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "46:35-54",
+              "loc": "43:18-37",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -26345,7 +26268,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "50:19-38",
+              "loc": "45:18-37",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -26359,7 +26282,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "58:22-41",
+              "loc": "50:35-54",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -26373,7 +26296,133 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "66:18-37",
+              "loc": "54:20-39",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "56:18-37",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "58:18-37",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "58:73-92",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "58:128-147",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "58:183-202",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "58:238-257",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "58:296-315",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "66:22-41",
+              "moduleId": "./src/routes/Inputs.jsx",
+              "resolvedModuleId": "./src/routes/Inputs.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "module": "./src/routes/Inputs.jsx",
+              "moduleName": "./src/routes/Inputs.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+              "resolvedModule": "./src/routes/Inputs.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "74:18-37",
               "moduleId": "./src/routes/Inputs.jsx",
               "resolvedModuleId": "./src/routes/Inputs.jsx"
             },
@@ -30738,20 +30787,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-      "issuerName": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
+      "issuerName": "./node_modules/webpack/hot/dev-server.js",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/log.js",
-      "issuerId": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+      "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
         "main"
       ],
@@ -34437,7 +34486,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "46:35-54",
+          "loc": "43:18-37",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -34451,7 +34500,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "50:19-38",
+          "loc": "45:18-37",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -34465,7 +34514,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "58:22-41",
+          "loc": "50:35-54",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -34479,7 +34528,133 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "66:18-37",
+          "loc": "54:20-39",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "56:18-37",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "58:18-37",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "58:73-92",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "58:128-147",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "58:183-202",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "58:238-257",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "58:296-315",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "66:22-41",
+          "moduleId": "./src/routes/Inputs.jsx",
+          "resolvedModuleId": "./src/routes/Inputs.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "module": "./src/routes/Inputs.jsx",
+          "moduleName": "./src/routes/Inputs.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Inputs.jsx",
+          "resolvedModule": "./src/routes/Inputs.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "74:18-37",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         },
@@ -43787,9 +43962,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 27635,
+      "size": 27183,
       "sizes": {
-        "javascript": 27635
+        "javascript": 27183
       },
       "built": true,
       "codeGenerated": false,
@@ -47428,9 +47603,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4608,
+      "size": 5182,
       "sizes": {
-        "javascript": 4608
+        "javascript": 5182
       },
       "built": false,
       "codeGenerated": false,
@@ -51895,12 +52070,12 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 6280,
+      "size": 6377,
       "sizes": {
-        "javascript": 6280
+        "javascript": 6377
       },
       "built": true,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
       "cached": false,
       "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Select.jsx",
@@ -51966,7 +52141,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../components/common/Select",
-          "loc": "41:167-173",
+          "loc": "45:38-44",
           "moduleId": "./src/routes/Inputs.jsx",
           "resolvedModuleId": "./src/routes/Inputs.jsx"
         }
@@ -61390,9 +61565,9 @@
         "runtime": 886
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/chunk loaded",
       "name": "webpack/runtime/chunk loaded",
       "nameForCondition": null,
@@ -61425,9 +61600,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -61460,9 +61635,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -61495,9 +61670,9 @@
         "runtime": 326
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/ensure chunk",
       "name": "webpack/runtime/ensure chunk",
       "nameForCondition": null,
@@ -61530,9 +61705,9 @@
         "runtime": 174
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get javascript chunk filename",
       "name": "webpack/runtime/get javascript chunk filename",
       "nameForCondition": null,
@@ -61565,9 +61740,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -61600,9 +61775,9 @@
         "runtime": 90
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -61635,9 +61810,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -61670,9 +61845,9 @@
         "runtime": 221
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/global",
       "name": "webpack/runtime/global",
       "nameForCondition": null,
@@ -61705,9 +61880,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -61740,9 +61915,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -61775,9 +61950,9 @@
         "runtime": 17515
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -61810,9 +61985,9 @@
         "runtime": 1505
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -61845,9 +62020,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -61880,9 +62055,9 @@
         "runtime": 123
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/node module decorator",
       "name": "webpack/runtime/node module decorator",
       "nameForCondition": null,
@@ -61915,9 +62090,9 @@
         "runtime": 35
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/nonce",
       "name": "webpack/runtime/nonce",
       "nameForCondition": null,
@@ -61950,9 +62125,9 @@
         "runtime": 35
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -61994,9 +62169,6 @@
         },
         {
           "name": "main.js"
-        },
-        {
-          "name": "main.098c7b133dfdcd1acb22.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -62026,9 +62198,6 @@
         },
         {
           "name": "main.js"
-        },
-        {
-          "name": "main.098c7b133dfdcd1acb22.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -62090,9 +62259,6 @@
       "assets": [
         {
           "name": "routes-inputs.bundle.js"
-        },
-        {
-          "name": "routes-inputs.098c7b133dfdcd1acb22.hot-update.js"
         }
       ],
       "filteredAssets": 0,

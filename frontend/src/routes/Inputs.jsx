@@ -25,6 +25,9 @@ export default function Inputs(props) {
     <>
       <h1>Title: {props.title}</h1>
 
+      <div className='flex'>
+
+      <div className='flex w-1/2'>
       <Select
         options={mockdata}
         selectedValue={selectedValue}
@@ -32,8 +35,21 @@ export default function Inputs(props) {
         placeholder=''
         renderIcon={() => (
           <SearchIcon height={20} width={20}/>
-        )}
-      />
+          )}
+        />
+        </div>
+        
+        <div className='flex w-1/2'>
+          <select class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        </div>
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit sem, commodo vitae placerat elementum, consequat a magna. Vivamus efficitur augue id neque pretium, sit amet maximus magna mollis. Nullam iaculis ex nunc, eu consequat est porttitor quis. Suspendisse potenti. Morbi quis imperdiet metus. Nulla tincidunt nulla aliquet nisi maximus pharetra. Duis aliquet dolor mauris, a fringilla est condimentum at. Nullam tristique ligula ut tellus volutpat aliquet. Pellentesque sodales quis sem in interdum.

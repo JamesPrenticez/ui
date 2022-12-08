@@ -150,7 +150,7 @@ export default function Select(props) {
                     ref={ele => itemsRef.current[index] = ele} 
                     // className={`${ activeIndex == index && 'bg-theme-tertiary'} py-2`}
                     className={`${ activeIndex == index && 'bg-red-700 text-white'} py-2`}
-                    onMouseOver={() => setActiveIndex(index)}
+                    onMouseMove={() => setActiveIndex(index)}
                     onClick={() => {
                       setSelectedValue(filteredArray[activeIndex])
                       setSearchValue('')
@@ -175,7 +175,7 @@ export default function Select(props) {
 }
 
 
-
+// https://stackoverflow.com/questions/42036865/react-how-to-navigate-through-list-by-arrow-keys
 // https://codesandbox.io/s/dropdown-arrow-keys-selection-vg5l8?from-embed=&file=/src/index.js:818-833
 // https://stackoverflow.com/questions/57867894/how-to-scroll-a-list-item-into-view-using-scrollintoview-method-using-reactjs
 // https://stackoverflow.com/questions/54633690/how-can-i-use-multiple-refs-for-an-array-of-elements-with-hooks
