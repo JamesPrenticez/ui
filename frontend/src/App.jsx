@@ -17,6 +17,9 @@ const Animations = lazy(() =>
 const Inputs = lazy(() =>
   import(/* webpackChunkName: "routes-inputs" */ './routes/Inputs')
 )
+const Viewport = lazy(() =>
+  import(/* webpackChunkName: "routes-veiwport" */ './routes/Viewport')
+)
 
 export default function App() {
   return (
@@ -34,11 +37,9 @@ export default function App() {
           <Route exact path='/' element={<Home title={'Home'} />} />
           <Route path='/table' element={<Table title={'Table'} />} />
           <Route path='/inputs' element={<Inputs title={'Inputs'} />} />
-          <Route
-            path='/animations'
-            element={<Animations title={'Animations'} />}
-          />
+          <Route path='/animations' element={<Animations title={'Animations'} />}/>
         </Route>
+        <Route path='/viewport' element={<Viewport title={'Viewport'} />}/>
       </Routes>
     </Suspense>
   )

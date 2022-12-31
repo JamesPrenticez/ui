@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { useKeyPressed } from '../../hooks/useKeyPressed'
+// import { useKeyPressed } from '../../hooks/useKeyPressed'
 
 export default function Select(props) {
   const { options, selectedValue, setSelectedValue, placeholder, renderIcon} = props
@@ -16,16 +16,16 @@ export default function Select(props) {
   const [searchValue, setSearchValue] = useState('')
   let filteredOptions = options.filter((item) => filteredArray.includes(item))
 
-  const downArrowPressed = useKeyPressed('ArrowDown')
-  const enterPressed = useKeyPressed('Enter')
+  // const downArrowPressed = useKeyPressed('ArrowDown')
+  // const enterPressed = useKeyPressed('Enter')
 
-  useEffect(() => {
-    if (isOpen) return
-    if (downArrowPressed && !isOpen) {
-      setIsOpen(true), inputRef.current.focus()
-    }
-    enterPressed //prevent default so contentEditable doesnt create a new line in the input box
-  }, [downArrowPressed, enterPressed])
+  // useEffect(() => {
+  //   if (isOpen) return
+  //   if (downArrowPressed && !isOpen) {
+  //     setIsOpen(true), inputRef.current.focus()
+  //   }
+  //   enterPressed //prevent default so contentEditable doesnt create a new line in the input box
+  // }, [downArrowPressed, enterPressed])
 
   const scrollIntoView = (direction) => {
     switch (direction){

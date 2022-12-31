@@ -23,6 +23,21 @@ module.exports = {
       '7xl': ['7rem', '9.5rem'],
     },
     extend: {
+      height:{
+        screenNav: "calc(100vh - 3rem)",
+      },
+      minHeight:{
+        screenNav: "calc(100vh - 3rem)",
+      },
+      width:{
+        screenNav: "calc(100vw - 3rem)",
+      },
+      minWidth:{
+        screenNav: "calc(100vw - 3rem)",
+      },
+      maxWidth:{
+        screenNav: "calc(100vw - 3rem)",
+      },
       colors: {
         theme: {
           primary: 'var(--primary)',

@@ -63,7 +63,7 @@ export default function Inputs(props) {
   )
 }
 
-function SearchIcon({height, width}){
+const SearchIcon = ({height, width}) => {
   return (
   <svg
     height={height}
