@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Header(){
   return (
-    <div className='flex bg-yellow-500 h-[3rem] w-full text-primary'>
+    <div className='flex bg-black h-[3rem] w-full text-primary'>
 
-    <div className='bg-black text-white w-[3rem] font-medium'>
+    <div className='bg-black text-white w-[3rem] font-medium truncate border-r border-white'>
     JP
     </div>
 
