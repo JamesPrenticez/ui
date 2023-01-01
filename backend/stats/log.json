@@ -1,5 +1,5 @@
 {
-  "hash": "4947071148778140fccc",
+  "hash": "7739eb8b89478be5d973",
   "version": "5.74.0",
   "time": null,
   "publicPath": "/public/",
@@ -7,7 +7,7 @@
   "assetsByChunkName": {
     "main": [
       "main.js",
-      "main.144daf859d38f573eb6f.hot-update.js"
+      "main.41567f8a45357677c288.hot-update.js"
     ],
     "routes-table": [
       "routes-table.bundle.js"
@@ -20,7 +20,7 @@
     ],
     "routes-veiwport": [
       "routes-veiwport.bundle.js",
-      "routes-veiwport.144daf859d38f573eb6f.hot-update.js"
+      "routes-veiwport.41567f8a45357677c288.hot-update.js"
     ],
     "vendor-corejs": [
       "vendor-corejs.js"
@@ -59,7 +59,7 @@
     {
       "type": "asset",
       "name": "main.js",
-      "size": 1260644,
+      "size": 1261584,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -132,32 +132,6 @@
     },
     {
       "type": "asset",
-      "name": "main.144daf859d38f573eb6f.hot-update.js",
-      "size": 73611,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "144daf859d38f573eb6f",
-        "minimized": true
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "main"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "routes-inputs.bundle.js",
       "size": 59476,
       "emitted": false,
@@ -183,7 +157,7 @@
     {
       "type": "asset",
       "name": "routes-animations.bundle.js",
-      "size": 16820,
+      "size": 17738,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -207,7 +181,7 @@
     {
       "type": "asset",
       "name": "routes-veiwport.bundle.js",
-      "size": 12019,
+      "size": 16248,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
@@ -254,15 +228,15 @@
     },
     {
       "type": "asset",
-      "name": "routes-veiwport.144daf859d38f573eb6f.hot-update.js",
-      "size": 4121,
+      "name": "routes-veiwport.41567f8a45357677c288.hot-update.js",
+      "size": 6077,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "144daf859d38f573eb6f",
+        "fullhash": "41567f8a45357677c288",
         "minimized": true
       },
       "chunkNames": [
@@ -280,7 +254,33 @@
     },
     {
       "type": "asset",
-      "name": "main.144daf859d38f573eb6f.hot-update.json",
+      "name": "main.41567f8a45357677c288.hot-update.js",
+      "size": 557,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true,
+        "fullhash": "41567f8a45357677c288",
+        "minimized": true
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.41567f8a45357677c288.hot-update.json",
       "size": 46,
       "emitted": false,
       "comparedForEmit": false,
@@ -288,7 +288,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "144daf859d38f573eb6f"
+        "fullhash": "41567f8a45357677c288"
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -306,9 +306,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 478025,
+      "size": 478437,
       "sizes": {
-        "javascript": 446568,
+        "javascript": 446980,
         "runtime": 31457
       },
       "names": [
@@ -320,10 +320,10 @@
       ],
       "files": [
         "main.js",
-        "main.144daf859d38f573eb6f.hot-update.js"
+        "main.41567f8a45357677c288.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "3f4f4e81f8823c0234ea",
+      "hash": "671d6ec1297865da377f",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [
@@ -5886,12 +5886,12 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 30450,
+          "size": 30862,
           "sizes": {
-            "javascript": 30450
+            "javascript": 30862
           },
           "built": true,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
           "cached": false,
           "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\postcss-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\styles\\globals.css",
@@ -6502,9 +6502,14 @@
           "issuerName": "./node_modules/webpack/hot/emitter.js",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
-              "name": "./node_modules/webpack/hot/dev-server.js",
-              "id": "./node_modules/webpack/hot/dev-server.js"
+              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+            },
+            {
+              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+              "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+              "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
             },
             {
               "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\emitter.js",
@@ -10933,20 +10938,25 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
-          "issuerName": "./node_modules/webpack/hot/dev-server.js",
+          "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+          "issuerName": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "issuerPath": [
             {
-              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
-              "name": "./node_modules/webpack/hot/dev-server.js",
-              "id": "./node_modules/webpack/hot/dev-server.js"
+              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+            },
+            {
+              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+              "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+              "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/emitter.js",
-          "issuerId": "./node_modules/webpack/hot/dev-server.js",
+          "issuerId": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
           "chunks": [
             "main"
           ],
@@ -12874,9 +12884,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 6436,
+      "size": 6783,
       "sizes": {
-        "javascript": 6436
+        "javascript": 6783
       },
       "names": [
         "routes-animations"
@@ -12889,7 +12899,7 @@
         "routes-animations.bundle.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "80070e63e53c2fc671b5",
+      "hash": "aca3bb235e144ea7010f",
       "childrenByOrder": {},
       "id": "routes-animations",
       "siblings": [],
@@ -12904,9 +12914,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 423,
+          "size": 770,
           "sizes": {
-            "javascript": 423
+            "javascript": 770
           },
           "built": false,
           "codeGenerated": false,
@@ -12948,7 +12958,8 @@
           "id": "./src/components/common/Button.jsx",
           "issuerId": "./src/routes/Animations.jsx",
           "chunks": [
-            "routes-animations"
+            "routes-animations",
+            "routes-veiwport"
           ],
           "assets": [],
           "reasons": [
@@ -12979,6 +12990,34 @@
               "loc": "31:38-44",
               "moduleId": "./src/routes/Animations.jsx",
               "resolvedModuleId": "./src/routes/Animations.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+              "module": "./src/routes/Viewport.jsx",
+              "moduleName": "./src/routes/Viewport.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+              "resolvedModule": "./src/routes/Viewport.jsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../components/common/Button",
+              "loc": "8:0-49",
+              "moduleId": "./src/routes/Viewport.jsx",
+              "resolvedModuleId": "./src/routes/Viewport.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+              "module": "./src/routes/Viewport.jsx",
+              "moduleName": "./src/routes/Viewport.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+              "resolvedModule": "./src/routes/Viewport.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../components/common/Button",
+              "loc": "50:44-50",
+              "moduleId": "./src/routes/Viewport.jsx",
+              "resolvedModuleId": "./src/routes/Viewport.jsx"
             }
           ],
           "usedExports": null,
@@ -14197,9 +14236,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 3934,
+      "size": 5261,
       "sizes": {
-        "javascript": 3934
+        "javascript": 5261
       },
       "names": [
         "routes-veiwport"
@@ -14210,10 +14249,10 @@
       ],
       "files": [
         "routes-veiwport.bundle.js",
-        "routes-veiwport.144daf859d38f573eb6f.hot-update.js"
+        "routes-veiwport.41567f8a45357677c288.hot-update.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "e9767248b778a8938221",
+      "hash": "b01c8ad19fa25e295511",
       "childrenByOrder": {},
       "id": "routes-veiwport",
       "siblings": [],
@@ -14228,9 +14267,126 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 323,
+          "size": 770,
           "sizes": {
-            "javascript": 323
+            "javascript": 770
+          },
+          "built": false,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": true,
+          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Button.jsx",
+          "name": "./src/components/common/Button.jsx",
+          "nameForCondition": "C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Button.jsx",
+          "index": 164,
+          "preOrderIndex": 164,
+          "index2": 163,
+          "postOrderIndex": 163,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Animations.jsx",
+          "issuerName": "./src/routes/Animations.jsx",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            },
+            {
+              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "./src/App.jsx"
+            },
+            {
+              "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Animations.jsx",
+              "name": "./src/routes/Animations.jsx",
+              "id": "./src/routes/Animations.jsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/components/common/Button.jsx",
+          "issuerId": "./src/routes/Animations.jsx",
+          "chunks": [
+            "routes-animations",
+            "routes-veiwport"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Animations.jsx",
+              "module": "./src/routes/Animations.jsx",
+              "moduleName": "./src/routes/Animations.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Animations.jsx",
+              "resolvedModule": "./src/routes/Animations.jsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../components/common/Button",
+              "loc": "2:0-49",
+              "moduleId": "./src/routes/Animations.jsx",
+              "resolvedModuleId": "./src/routes/Animations.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Animations.jsx",
+              "module": "./src/routes/Animations.jsx",
+              "moduleName": "./src/routes/Animations.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Animations.jsx",
+              "resolvedModule": "./src/routes/Animations.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../components/common/Button",
+              "loc": "31:38-44",
+              "moduleId": "./src/routes/Animations.jsx",
+              "resolvedModuleId": "./src/routes/Animations.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+              "module": "./src/routes/Viewport.jsx",
+              "moduleName": "./src/routes/Viewport.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+              "resolvedModule": "./src/routes/Viewport.jsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../components/common/Button",
+              "loc": "8:0-49",
+              "moduleId": "./src/routes/Viewport.jsx",
+              "resolvedModuleId": "./src/routes/Viewport.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+              "module": "./src/routes/Viewport.jsx",
+              "moduleName": "./src/routes/Viewport.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+              "resolvedModule": "./src/routes/Viewport.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../components/common/Button",
+              "loc": "50:44-50",
+              "moduleId": "./src/routes/Viewport.jsx",
+              "resolvedModuleId": "./src/routes/Viewport.jsx"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 370,
+          "sizes": {
+            "javascript": 370
           },
           "built": false,
           "codeGenerated": false,
@@ -14300,7 +14456,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../components/viewport/Header",
-              "loc": "12:38-44",
+              "loc": "45:38-44",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             }
@@ -14388,7 +14544,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../components/viewport/Item",
-              "loc": "19:44-48",
+              "loc": "62:44-48",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             }
@@ -14476,7 +14632,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../components/viewport/Navbar",
-              "loc": "14:38-44",
+              "loc": "47:38-44",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             }
@@ -14564,7 +14720,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../components/viewport/Sidebar",
-              "loc": "12:86-93",
+              "loc": "45:86-93",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             }
@@ -14654,9 +14810,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 320,
+          "size": 283,
           "sizes": {
-            "javascript": 320
+            "javascript": 283
           },
           "built": false,
           "codeGenerated": false,
@@ -14726,35 +14882,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../components/viewport/Toolbar",
-              "loc": "14:86-93",
-              "moduleId": "./src/routes/Viewport.jsx",
-              "resolvedModuleId": "./src/routes/Viewport.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-              "module": "./src/routes/Viewport.jsx",
-              "moduleName": "./src/routes/Viewport.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-              "resolvedModule": "./src/routes/Viewport.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../components/viewport/Toolbar",
-              "loc": "14:135-142",
-              "moduleId": "./src/routes/Viewport.jsx",
-              "resolvedModuleId": "./src/routes/Viewport.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-              "module": "./src/routes/Viewport.jsx",
-              "moduleName": "./src/routes/Viewport.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-              "resolvedModule": "./src/routes/Viewport.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../components/viewport/Toolbar",
-              "loc": "14:184-191",
+              "loc": "47:86-93",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             }
@@ -14770,9 +14898,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1368,
+          "size": 1915,
           "sizes": {
-            "javascript": 1368
+            "javascript": 1915
           },
           "built": true,
           "codeGenerated": true,
@@ -25186,7 +25314,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "1:0-26",
+              "loc": "1:0-40",
               "moduleId": "./src/components/common/Button.jsx",
               "resolvedModuleId": "./src/components/common/Button.jsx"
             },
@@ -25200,7 +25328,21 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "10:22-41",
+              "loc": "10:32-40",
+              "moduleId": "./src/components/common/Button.jsx",
+              "resolvedModuleId": "./src/components/common/Button.jsx"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Button.jsx",
+              "module": "./src/components/common/Button.jsx",
+              "moduleName": "./src/components/common/Button.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Button.jsx",
+              "resolvedModule": "./src/components/common/Button.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "23:22-41",
               "moduleId": "./src/components/common/Button.jsx",
               "resolvedModuleId": "./src/components/common/Button.jsx"
             },
@@ -26502,21 +26644,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "3:22-41",
-              "moduleId": "./src/components/viewport/Toolbar.jsx",
-              "resolvedModuleId": "./src/components/viewport/Toolbar.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\viewport\\Toolbar.jsx",
-              "module": "./src/components/viewport/Toolbar.jsx",
-              "moduleName": "./src/components/viewport/Toolbar.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\viewport\\Toolbar.jsx",
-              "resolvedModule": "./src/components/viewport/Toolbar.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "5:18-37",
+              "loc": "6:22-41",
               "moduleId": "./src/components/viewport/Toolbar.jsx",
               "resolvedModuleId": "./src/components/viewport/Toolbar.jsx"
             },
@@ -27566,7 +27694,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "10:22-41",
+              "loc": "43:22-41",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27580,7 +27708,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "12:18-37",
+              "loc": "45:18-37",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27594,7 +27722,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "12:66-85",
+              "loc": "45:66-85",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27608,7 +27736,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "12:115-134",
+              "loc": "45:115-134",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27622,7 +27750,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "14:18-37",
+              "loc": "47:18-37",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27636,7 +27764,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "14:66-85",
+              "loc": "47:66-85",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27650,7 +27778,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "14:115-134",
+              "loc": "50:24-43",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27664,7 +27792,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "14:164-183",
+              "loc": "57:20-39",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27678,7 +27806,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "14:213-232",
+              "loc": "59:18-37",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -27692,21 +27820,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "react",
-              "loc": "16:18-37",
-              "moduleId": "./src/routes/Viewport.jsx",
-              "resolvedModuleId": "./src/routes/Viewport.jsx"
-            },
-            {
-              "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-              "module": "./src/routes/Viewport.jsx",
-              "moduleName": "./src/routes/Viewport.jsx",
-              "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-              "resolvedModule": "./src/routes/Viewport.jsx",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "react",
-              "loc": "19:24-43",
+              "loc": "62:24-43",
               "moduleId": "./src/routes/Viewport.jsx",
               "resolvedModuleId": "./src/routes/Viewport.jsx"
             },
@@ -33110,20 +33224,25 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
-      "issuerName": "./node_modules/webpack/hot/dev-server.js",
+      "issuer": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+      "issuerName": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
-          "name": "./node_modules/webpack/hot/dev-server.js",
-          "id": "./node_modules/webpack/hot/dev-server.js"
+          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+        },
+        {
+          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+          "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+          "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/emitter.js",
-      "issuerId": "./node_modules/webpack/hot/dev-server.js",
+      "issuerId": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
       "chunks": [
         "main"
       ],
@@ -33866,7 +33985,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "1:0-26",
+          "loc": "1:0-40",
           "moduleId": "./src/components/common/Button.jsx",
           "resolvedModuleId": "./src/components/common/Button.jsx"
         },
@@ -33880,7 +33999,21 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "10:22-41",
+          "loc": "10:32-40",
+          "moduleId": "./src/components/common/Button.jsx",
+          "resolvedModuleId": "./src/components/common/Button.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Button.jsx",
+          "module": "./src/components/common/Button.jsx",
+          "moduleName": "./src/components/common/Button.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\common\\Button.jsx",
+          "resolvedModule": "./src/components/common/Button.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "23:22-41",
           "moduleId": "./src/components/common/Button.jsx",
           "resolvedModuleId": "./src/components/common/Button.jsx"
         },
@@ -35182,21 +35315,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "3:22-41",
-          "moduleId": "./src/components/viewport/Toolbar.jsx",
-          "resolvedModuleId": "./src/components/viewport/Toolbar.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\viewport\\Toolbar.jsx",
-          "module": "./src/components/viewport/Toolbar.jsx",
-          "moduleName": "./src/components/viewport/Toolbar.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\components\\viewport\\Toolbar.jsx",
-          "resolvedModule": "./src/components/viewport/Toolbar.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "5:18-37",
+          "loc": "6:22-41",
           "moduleId": "./src/components/viewport/Toolbar.jsx",
           "resolvedModuleId": "./src/components/viewport/Toolbar.jsx"
         },
@@ -36246,7 +36365,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "10:22-41",
+          "loc": "43:22-41",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36260,7 +36379,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "12:18-37",
+          "loc": "45:18-37",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36274,7 +36393,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "12:66-85",
+          "loc": "45:66-85",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36288,7 +36407,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "12:115-134",
+          "loc": "45:115-134",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36302,7 +36421,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "14:18-37",
+          "loc": "47:18-37",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36316,7 +36435,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "14:66-85",
+          "loc": "47:66-85",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36330,7 +36449,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "14:115-134",
+          "loc": "50:24-43",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36344,7 +36463,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "14:164-183",
+          "loc": "57:20-39",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36358,7 +36477,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "14:213-232",
+          "loc": "59:18-37",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -36372,21 +36491,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "react",
-          "loc": "16:18-37",
-          "moduleId": "./src/routes/Viewport.jsx",
-          "resolvedModuleId": "./src/routes/Viewport.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-          "module": "./src/routes/Viewport.jsx",
-          "moduleName": "./src/routes/Viewport.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-          "resolvedModule": "./src/routes/Viewport.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "react",
-          "loc": "19:24-43",
+          "loc": "62:24-43",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         },
@@ -40577,9 +40682,14 @@
       "issuerName": "./node_modules/webpack/hot/emitter.js",
       "issuerPath": [
         {
-          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\dev-server.js",
-          "name": "./node_modules/webpack/hot/dev-server.js",
-          "id": "./node_modules/webpack/hot/dev-server.js"
+          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true",
+          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3001&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=true"
+        },
+        {
+          "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack-dev-server\\client\\utils\\reloadApp.js",
+          "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+          "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
         },
         {
           "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\webpack\\hot\\emitter.js",
@@ -45638,12 +45748,12 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 30450,
+      "size": 30862,
       "sizes": {
-        "javascript": 30450
+        "javascript": 30862
       },
       "built": true,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
       "cached": false,
       "identifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\postcss-loader\\dist\\cjs.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\styles\\globals.css",
@@ -49347,9 +49457,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1368,
+      "size": 1915,
       "sizes": {
-        "javascript": 1368
+        "javascript": 1915
       },
       "built": true,
       "codeGenerated": true,
@@ -53640,9 +53750,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 423,
+      "size": 770,
       "sizes": {
-        "javascript": 423
+        "javascript": 770
       },
       "built": false,
       "codeGenerated": false,
@@ -53683,7 +53793,8 @@
       "id": "./src/components/common/Button.jsx",
       "issuerId": "./src/routes/Animations.jsx",
       "chunks": [
-        "routes-animations"
+        "routes-animations",
+        "routes-veiwport"
       ],
       "assets": [],
       "reasons": [
@@ -53714,6 +53825,34 @@
           "loc": "31:38-44",
           "moduleId": "./src/routes/Animations.jsx",
           "resolvedModuleId": "./src/routes/Animations.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+          "module": "./src/routes/Viewport.jsx",
+          "moduleName": "./src/routes/Viewport.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+          "resolvedModule": "./src/routes/Viewport.jsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../components/common/Button",
+          "loc": "8:0-49",
+          "moduleId": "./src/routes/Viewport.jsx",
+          "resolvedModuleId": "./src/routes/Viewport.jsx"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+          "module": "./src/routes/Viewport.jsx",
+          "moduleName": "./src/routes/Viewport.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
+          "resolvedModule": "./src/routes/Viewport.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../components/common/Button",
+          "loc": "50:44-50",
+          "moduleId": "./src/routes/Viewport.jsx",
+          "resolvedModuleId": "./src/routes/Viewport.jsx"
         }
       ],
       "usedExports": null,
@@ -53974,9 +54113,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 323,
+      "size": 370,
       "sizes": {
-        "javascript": 323
+        "javascript": 370
       },
       "built": false,
       "codeGenerated": false,
@@ -54045,7 +54184,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../components/viewport/Header",
-          "loc": "12:38-44",
+          "loc": "45:38-44",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         }
@@ -54132,7 +54271,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../components/viewport/Sidebar",
-          "loc": "12:86-93",
+          "loc": "45:86-93",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         }
@@ -54219,7 +54358,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../components/viewport/Navbar",
-          "loc": "14:38-44",
+          "loc": "47:38-44",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         }
@@ -54235,9 +54374,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 320,
+      "size": 283,
       "sizes": {
-        "javascript": 320
+        "javascript": 283
       },
       "built": false,
       "codeGenerated": false,
@@ -54306,35 +54445,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../components/viewport/Toolbar",
-          "loc": "14:86-93",
-          "moduleId": "./src/routes/Viewport.jsx",
-          "resolvedModuleId": "./src/routes/Viewport.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-          "module": "./src/routes/Viewport.jsx",
-          "moduleName": "./src/routes/Viewport.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-          "resolvedModule": "./src/routes/Viewport.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../components/viewport/Toolbar",
-          "loc": "14:135-142",
-          "moduleId": "./src/routes/Viewport.jsx",
-          "resolvedModuleId": "./src/routes/Viewport.jsx"
-        },
-        {
-          "moduleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-          "module": "./src/routes/Viewport.jsx",
-          "moduleName": "./src/routes/Viewport.jsx",
-          "resolvedModuleIdentifier": "C:\\Users\\prent\\github\\ui\\frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\prent\\github\\ui\\frontend\\src\\routes\\Viewport.jsx",
-          "resolvedModule": "./src/routes/Viewport.jsx",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "../components/viewport/Toolbar",
-          "loc": "14:184-191",
+          "loc": "47:86-93",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         }
@@ -54494,7 +54605,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../components/viewport/Item",
-          "loc": "19:44-48",
+          "loc": "62:44-48",
           "moduleId": "./src/routes/Viewport.jsx",
           "resolvedModuleId": "./src/routes/Viewport.jsx"
         }
@@ -64359,7 +64470,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.144daf859d38f573eb6f.hot-update.js"
+          "name": "main.41567f8a45357677c288.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -64391,7 +64502,7 @@
           "name": "main.js"
         },
         {
-          "name": "main.144daf859d38f573eb6f.hot-update.js"
+          "name": "main.41567f8a45357677c288.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -64474,7 +64585,7 @@
           "name": "routes-veiwport.bundle.js"
         },
         {
-          "name": "routes-veiwport.144daf859d38f573eb6f.hot-update.js"
+          "name": "routes-veiwport.41567f8a45357677c288.hot-update.js"
         }
       ],
       "filteredAssets": 0,

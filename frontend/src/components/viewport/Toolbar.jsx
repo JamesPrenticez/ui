@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Toolbar() {
+export default function Toolbar({children}) {
   return (
     <div className='bg-gray-500
                      text-white 
@@ -9,9 +9,10 @@ export default function Toolbar() {
                      px-2
                      flex
                      items-center
-                     justify-between 
-                     truncate'>
-      <p className=''>Paragraph</p>
+                     space-x-2
+                     truncate'
+    >
+      {children}
     </div>
   )
 }
